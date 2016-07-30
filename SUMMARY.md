@@ -2,13 +2,10 @@
 
 * [Introduction](README.md)
 * [The Problems](the_problems.md)
-   * [Lists](lists.md)
+   * Lists
 * [Learning Track](learning_track.md)
    * Simple List Functions
    * Problem 1
 * Junk
 * Lists
-* [Learning Track](learning_track.md)
-   * Simple List Functions
-   * Problem 1
 
