@@ -92,8 +92,6 @@
         * [Problem 88](problem_88.md)
         * [Problem 89](problem_89.md)
     * List Extras
-
------
 * [The Solutions](the_solutions.md)
     * [Problem 1 Solutions](problem_1_solutions.md)
     * [Problem 2 Solutions](problem_2_solutions.md)
@@ -132,6 +130,8 @@
     * [Problem 42 Solutions](problem_42_solutions.md)
     * [Extra 1 Solutions](extra_1_solutions.md)
     * [Extra 2 Solutions.md](extra2_solutions_md.md)
+
+## Supplemental
 * [Notes](notes.md)
 * [Template](template.md)
 * [Utility Functions](utility_functions.md)
