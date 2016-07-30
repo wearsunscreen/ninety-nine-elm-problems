@@ -1,6 +1,6 @@
 # Lists
 
-Lists and functional programming go together like a horse and carriage.
+Lists are a fundamental data of functional programming languges. In statically typed languages like Elm all elements of the list are of the same type. Lists are immutable. You never change the list's value. Instead you create new lists, sometimes as modified versions of an input list.  
 
 [Problem 1](p/p01.md) - Get last element of a list.
 
