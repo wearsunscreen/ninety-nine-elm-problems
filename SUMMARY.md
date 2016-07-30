@@ -1,5 +1,5 @@
 # Summary
 
-* [Ninety-nine Elm Problems](README.md)
+* [Introduction](README.md)
 * [Learning Track](learning_track.md)
 
