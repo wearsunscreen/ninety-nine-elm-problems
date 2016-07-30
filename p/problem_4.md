@@ -1,0 +1,35 @@
+# Problem 4
+Elm provides the function ```List.length```. See if you can implement it yourself.
+##Example
+```
+countElements [1, 2, 3, 4, 3, 2, 1] == 7
+```
+## Unit Test
+```elm
+import Html exposing (text)
+import List
+countElements : List a -> Int
+countElements xs =
+ -- your implementation here
+ 0
+
+main =
+ text
+ (if (test) then
+ "Your implementation passed all tests."
+ else
+ "Your implementation failed at least one test."
+ )
+test : Bool
+test =
+ List.all ((==) True)
+ [ countElements [1..4000] == 4000
+ , countElements [ 1 ] == 1
+ , countElements [] == 0
+ , countElements [ 'a', 'b', 'c' ] == 3
+ ]
+```
+## Hints
+1. Use a fold.
+2. Elm has a specialize fold, ```List.sum```. How can you transform the list such that ```List.sum``` gives you the answer?
+[Solutions](problem_4_solutions.md)
