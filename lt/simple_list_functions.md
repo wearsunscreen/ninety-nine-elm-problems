@@ -40,7 +40,7 @@ Solve [Problem 20](../p/p20.md) using  `List.take` and `List.drop` and the appen
 rotate : List a -> Int -> List a
 ```
 
-Solve [Problem 19](problem_19.md) using `List.take` and `List.drop` and the append operator `(++)` or `List.append`.
+Solve [Problem 19](../p/p19.md) using `List.take` and `List.drop` and the append operator `(++)` or `List.append`.
 
 ## Problem 21
 
