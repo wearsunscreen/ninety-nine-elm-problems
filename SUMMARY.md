@@ -18,8 +18,8 @@
     * [Problem 3](/p/problem_3.md)
     * [Problem 4](/p/problem_4.md)
     * [Problem 5](/p/problem_5.md)
-    * [Problem 6](problem_6.md)
-    * [Problem 8](problem_8.md)
+    * [Problem 6](/p/problem_6.md)
+    * [Problem 8](/p/problem_8.md)
 
   * [List Extras](list-extras.md)
 
