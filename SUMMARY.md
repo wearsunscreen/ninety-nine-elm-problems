@@ -4,4 +4,5 @@
 * [Learning Track](learning_track.md)
    * Simple List Functions
 * [The Problems](the_problems.md)
+   * Lists
 
