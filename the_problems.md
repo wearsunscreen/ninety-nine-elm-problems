@@ -11,4 +11,3 @@ Each problem has:
 ## How to get the most from this book
 Copy the unit test into the Elm online editor, [http://elm-lang.org/try](http://elm-lang.org/try). Before checking the hints or the solutions page, attempt to solve the problem by yourself. Apply what you learned from the previous problems to solve the later problems. Then check the hints and see if that doesn't inspire other solutions or improvements to your own. Finally, check the solutions page to learn from those examples. 
 
-![just for testing](images/p65.gif)
