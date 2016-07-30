@@ -1,0 +1,98 @@
+# Problem 49
+The [Gray Code](http://mathworld.wolfram.com/GrayCode.html) is a binary numbering system used in error correction system. It can be generated for different bit sizes using a *reflecting* pattern. To generate a two-bit code, take the single bit Gray code 0, 1. Write it forwards, then backwards: 0, 1, 1, 0. Prepend 0s to the first half and 1s to the second half: 00, 01, 11, 10. To generate a 3-bit code, write 00, 01, 11, 10, 10, 11, 01, 00 to obtain: 000, 001, 011, 010, 110, 111, 101, 100.
+##Example
+```elm
+grayCode 3 == [[0,0,0], [0,0,1], [0,1,1], [0,1,0], [1,1,0], [1,1,1], [1,0,1], [1,0,0]]
+```
+## Unit Test
+```elm
+import Html
+import List
+import Maybe
+-- generate an array of integers encoded with Gray's binary code
+grayCodes : Int -> List (List Int)
+grayCodes numBits =
+ let
+ n = max 0 numBits
+ in
+ case n of
+ 0 ->
+ []
+
+ 1 ->
+ [[0], [1]]
+
+ _ ->
+ let
+ n = abs numBits
+ xs = grayCodes (n - 1)
+ in
+ (List.map ((::) 0) xs) ++ (List.map ((::) 1) (List.reverse xs))
+main =
+ Html.text
+ (if (test) then
+ "Your implementation passed all tests."
+ else
+ "Your implementation failed at least one test."
+ )
+test : Bool
+test =
+ List.all ((==) True)
+ [ grayCodes 1 == [[0],[1]]
+ , grayCodes 2 == [[0,0],[0,1],[1,1],[1,0]]
+ , grayCodes 3 == [[0,0,0], [0,0,1], [0,1,1], [0,1,0], [1,1,0], [1,1,1], [1,0,1], [1,0,0]]
+ , grayCodes 4 == [[0,0,0,0], [0,0,0,1], [0,0,1,1], [0,0,1,0], [0,1,1,0], [0,1,1,1], [0,1,0,1], [0,1,0,0], [1,1,0,0], [1,1,0,1], [1,1,1,1], [1,1,1,0], [1,0,1,0], [1,0,1,1], [1,0,0,1], [1,0,0,0]]
+ , testGray 4 (grayCodes 4)
+ , testGray 5 (grayCodes 5)
+ , testGray 8 (grayCodes 8)
+ , testGray 13 (grayCodes 13)
+ ]
+
+
+getDeltas : List (List Int) -> List Int
+getDeltas xs =
+ case xs of
+ [] ->
+ [0]
+
+ [g1] ->
+ [0]
+
+ [g1, g2] ->
+ [abs ((List.sum g1) - (List.sum g2))]
+
+ g1 :: g2 :: gs ->
+ abs ((List.sum g1) - (List.sum g2)) :: getDeltas (g2 :: gs)
+
+-- In the Gray bit code the sum of the bits of two neighboring numbers
+-- is always 1
+testGray : Int -> List (List Int) -> Bool
+testGray bits xs =
+ let
+ highest = Maybe.withDefault [-5]
+ <| List.head
+ <| List.reverse xs
+ one = Maybe.withDefault [-5]
+ <| List.head
+ <| Maybe.withDefault [[-5]]
+ <| List.tail xs
+ zero = Maybe.withDefault [-5]
+ <| List.head xs
+ deltas = getDeltas xs
+ in
+ List.all ((==) True)
+ [ List.sum highest == 1
+ , List.sum one == 1
+ , List.length xs == 2 ^ bits
+ , List.sum zero == 0
+ ]
+ && List.all ((==) 1) deltas
+
+```
+## Hints
+1. Use the reflecting nature of the Gray code to recursively solve for the answer.
+2. The Gray code can also be generated using a fold, in Haskell this looks like:
+gray :: Integral a => a -> [String]
+gray 0 = [""]
+gray n = foldr (\s acc -> ("0" ++ s):("1" ++ s):acc) [] $ gray (n-1)
+[Solutions](problem_49_solutions.md)
