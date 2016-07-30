@@ -1,0 +1,22 @@
+# Problem 34 Solutions
+
+```
+totient :  Int -> Int
+totient n = 
+    -- your implementation here
+    List.length <| List.filter (\x -> coprime n x) [1..n]
+
+
+coprime :  Int -> Int -> Bool
+coprime a b = 
+    gcd a b == 1
+
+
+gcd : Int -> Int -> Int 
+gcd a b =
+    if b == 0 then  
+        abs a
+    else
+        gcd b (a % b)
+```
+[Back to problem](problem_34.md)

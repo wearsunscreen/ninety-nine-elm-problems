@@ -1,0 +1,56 @@
+# Problem 28.b Solutions
+
+##Solution 1
+1. Create a table of list lengths, and their frequencies (see ```lenFreq```). 
+2. Use that table to sort the list. Note the partial application of the table to the comparison function``` sortLenFreq```.
+
+
+```
+sortByLengthFrequency : List (List a) -> List (List a) 
+sortByLengthFrequency xs = 
+    let 
+        lenFreqs = lenFreq xs
+    in
+        List.sortBy (sortLenFreq lenFreqs) xs
+        
+
+sortLenFreq : List (Int, Int) -> List a -> Int
+sortLenFreq lenFreqs xs =
+    let 
+        len = List.length xs 
+        tl = dropWhile (\(l, f) -> l /= len) lenFreqs
+    in
+        snd <| Maybe.withDefault (0,0) <| List.head tl
+
+              
+lenFreq : List (List a) -> List (Int, Int)
+lenFreq xs =
+    case xs of 
+        [] ->
+            [(0, 0)]
+          
+        l :: ls ->
+            let 
+                len = List.length l
+                (l1, l2) = List.partition (\x -> List.length x == len) xs
+                freq = List.length l1
+            in
+                if List.isEmpty l2 then
+                    [(len, freq)]
+                else
+                    (len, freq) :: lenFreq l2
+                
+
+dropWhile : (a -> Bool) -> List a -> List a
+dropWhile predicate list =
+    case list of
+      []      -> []
+      
+      x::xs   -> 
+          if (predicate x) then 
+              dropWhile predicate xs
+          else 
+              list
+              
+```
+[Back to problem](problem_28b.md)

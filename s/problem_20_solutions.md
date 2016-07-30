@@ -1,0 +1,14 @@
+# Problem 20 Solutions
+
+## Solution 1
+```
+dropAt : List a -> Int -> List a
+dropAt list n =
+    case list of 
+        [] -> []
+
+        x :: xs ->
+            (List.take (n - 1) list) ++ (List.drop n list)
+```
+
+[Back to problem](problem_20.md)

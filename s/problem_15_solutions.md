@@ -1,0 +1,14 @@
+# Problem 15 Solutions
+
+## Solution 1
+```
+repeatElements : List a -> Int -> List a
+repeatElements list n =
+    case list of 
+        [] -> []
+        
+        x :: xs -> 
+            (List.repeat n x) ++ repeatElements xs n
+```
+
+[Back to problem](problem_15.md)

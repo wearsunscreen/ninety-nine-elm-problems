@@ -1,0 +1,11 @@
+# Problem 17 Solutions
+
+### Solution #1
+Using Elm core functions ```List.take``` and ```List.drop```.
+```
+split : List a -> Int -> (List a, List a)
+split list count =
+    (List.take count list, List.drop count list)
+```
+
+[Back to Problem 17](problem_17.md)

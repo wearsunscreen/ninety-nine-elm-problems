@@ -1,0 +1,85 @@
+# Problem 35 Solutions
+##Solution 1
+Use the Sieve of Eratosthenes to find primes, then test each prime from lowest to highest. 
+```
+primeFactors' : Int -> List Int
+primeFactors' n =
+    List.reverse <| factors n (primes n) []
+
+
+factors : Int -> List Int -> List Int -> List Int
+factors n ps acc  =
+    case ps of
+        [] -> acc
+        
+        x :: xs ->
+            if n == x then
+                x :: acc
+            else if n % x == 0 then
+                factors (n // x) ps ( x :: acc )
+            else
+                factors n xs acc
+
+
+-- find all primes up to n
+primes : Int -> List Int
+primes n = 
+    if n < 2 then
+        []
+    else
+        eratos [2..n] []
+
+
+-- sieve of Eratosthenes
+-- remove all the the non-primes from a list
+eratos : List Int -> List Int -> List Int
+eratos candidates primes =  
+   case candidates of
+       [] -> List.reverse primes
+       
+       x::xs ->
+           let 
+               cs = List.filter (\y -> (y % x) /= 0) xs
+           in
+               eratos cs (x :: primes)
+ ```          
+##Solution 1 Optimized
+
+We can optimize the first solution by eliminating primes between n/2 and n. 
+```
+primeFactors : Int -> List Int
+primeFactors n =
+    if n < 2 then
+        []
+    else 
+      List.reverse <| factors n ((primes (n // 2)) ++ [n]) []
+```
+
+## Solution 2
+Use ```dropWhile``` to sieve the prime numbers for you  
+```
+primeFactorsM : Int -> List Int
+primeFactorsM n =
+    if n < 2 then
+        []
+    else
+        let
+            prime = Maybe.withDefault 0 
+                <| List.head 
+                <| dropWhile (\x -> n % x /= 0) [2 .. n]
+        in
+            prime :: (primeFactorsM <| n // prime)
+                
+           
+dropWhile : (a -> Bool) -> List a -> List a
+dropWhile predicate list =
+    case list of
+      []      -> []
+      
+      x::xs   -> 
+          if (predicate x) then 
+              dropWhile predicate xs
+          else 
+              list
+```
+              

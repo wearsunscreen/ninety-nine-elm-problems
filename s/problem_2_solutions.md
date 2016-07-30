@@ -1,0 +1,37 @@
+# Problem 2 Solutions
+
+###Solution 1:
+Recursive search for the last element
+
+```
+penultimate : List a -> Maybe a
+penultimate xs = 
+  case list of
+    [ ] -> Nothing
+    [y] -> Nothing
+    [y, z] -> Just y
+    y::ys -> penultimate ys
+
+```
+###Solution 2: 
+Reverse the list and take the head.
+```
+penultimate : List a -> Maybe a
+penultimate xs = 
+  case List.reverse list of
+    [ ] -> Nothing
+    y::ys -> List.head ys
+
+```
+###Solution 3: 
+Reverse the list, drop one and take the head. 
+```
+penultimate : List a -> Maybe a
+penultimate xs = 
+  case drop 1 (List.reverse list) of
+    [ ] -> Nothing
+    y::ys -> Just y
+
+
+```
+[Back to Problem 2](problem_2.md)

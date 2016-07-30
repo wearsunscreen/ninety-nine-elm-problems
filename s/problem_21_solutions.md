@@ -1,0 +1,43 @@
+# Problem 21 Solutions
+## Solution 1
+Use split from [Problem 17](problem_17_solutions.md).
+
+```
+split : List a -> Int -> (List a, List a)
+split list count =
+    (List.take count list, List.drop count list)
+    
+    
+insertAt : List a -> Int -> a -> List a
+insertAt xs n v =
+    let 
+      (front, back) = split xs (n - 1)
+    in
+      front ++ (v :: back)
+```      
+      
+## Solution 2
+Do the split internally with List.drop and List.take
+```
+insertAt : List a -> Int -> a -> List a
+insertAt xs n v =
+    List.take (n-1) xs ++ ( v :: List.drop (n-1) xs)
+```
+
+## Solution 3
+Is there anything you can't do with recursion?
+
+```
+insertAt : List a -> Int -> a -> List a
+insertAt xs n v =
+  if n < 2 then
+    v :: xs
+  else 
+    case xs of
+      [] -> 
+        [v]
+    
+      y :: ys ->
+        y :: insertAt ys (n - 1) v
+```        
+[Back to problem](problem_21.md)
