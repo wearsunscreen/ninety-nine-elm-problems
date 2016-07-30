@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [The Problems](the_problems.md)
-   * Lists
+   * [Lists](lists.md)
 * [Learning Track](learning_track.md)
    * Simple List Functions
    * Problem 1
