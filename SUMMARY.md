@@ -16,8 +16,8 @@
     * [Problem 1](/p/problem_1.md)
     * [Problem 2](/p/problem_2.md)
     * [Problem 3](/p/problem_3.md)
-    * [Problem 4](problem_4.md)
-    * [Problem 5](problem_5.md)
+    * [Problem 4](/p/problem_4.md)
+    * [Problem 5](/p/problem_5.md)
     * [Problem 6](problem_6.md)
     * [Problem 8](problem_8.md)
 
@@ -162,4 +162,5 @@
 * [Template](template.md)
 
 * [Utility Functions](utility_functions.md)
+
 
