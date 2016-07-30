@@ -1,0 +1,66 @@
+# Problem 68
+
+We define three traversal forms as:
+
+* Pre-order traversal of a binary tree displays the data value of the node, then traverses the left subtree then traverses the right subtree. For example, pre-order traversal of the tree from Problem 67 gives us ```a, b, c, d, e, f, g```.
+* In-order traversal traverses the left subtree, then shows the data value, then traverses the right subtree. 
+* Post-order traverses the left subtree, then the right subtree, then shows the data value.
+
+a) Write a function to traverse a tree and return the values in a list in pre-order.
+b) Write a function to traverse a tree and return the values in a list in pre-order.
+c) Write a function return a tree given the pre-order of its values.
+d) Given both the pre-order and in-order sequences, the shape of the tree is unambiguous. Write a function to create the tree from the in-order and pre-order lists of values.
+
+```
+import Html exposing (text)
+
+
+type Tree a
+    = Empty
+    | Node a (Tree a) (Tree a)
+
+
+tree67 =
+    "x(y,a(,b))"
+
+
+stringToTree : String -> Tree String
+stringToTree s =
+-- implementation from Problem 67
+
+
+preorderValues -> Tree a -> List a
+preorderValues tree = 
+    -- your implementation here
+
+
+inorderValues -> Tree a -> List a
+inorderValues tree = 
+    -- your implementation here
+
+
+preorderTree -> List a -> Tree a
+preorderTree preorder =
+  -- your implementation here
+
+
+preinorderTree -> List a -> List a -> Tree a
+preinorderTree preorder inorder =
+  -- your implementation here
+
+
+main =
+    let 
+        tree = stringToTree tree67
+        inorder = inorderValues tree
+        preorder = preorderValues tree
+    in
+        text (preinorderTree inorder preorder)     
+```
+        
+Result
+```
+```
+
+
+

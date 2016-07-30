@@ -1,0 +1,53 @@
+# Problem 31
+
+Determine whether a given integer number is prime.
+
+Example:
+```
+isPrime 113 == True 
+```
+## Unit Test
+```
+import Html 
+import List
+
+
+isPrime : Int -> Bool
+isPrime n =
+    -- your implementation here
+    False
+
+main =
+    Html.text
+        (if (test) then
+            "Your implementation passed all tests."
+         else
+            "Your implementation failed at least one test."
+        )
+
+
+test : Bool
+test =
+    List.all (\(result, expect) -> result == expect)
+        [ ( isPrime 36, False )
+        , ( isPrime 10, False )
+        , ( isPrime -1, False )
+        , ( isPrime 1, False )
+        , ( isPrime 0, False )
+        , ( isPrime 120, False )
+        , ( isPrime 2, True )
+        , ( isPrime 23, True )
+        , ( isPrime 6000, False)
+        , ( isPrime 7919, True)
+        , ( isPrime 7911, False)
+        , ( isPrime 63247, True)
+        , ( isPrime 63249, False)
+        ]     
+  
+```
+
+##Hints
+1. Try the [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes). ```List.filter``` will come in handy.
+
+## Solutions
+[Solutions](problem_31_solutions.md)

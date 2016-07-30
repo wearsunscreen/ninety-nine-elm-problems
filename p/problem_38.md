@@ -1,0 +1,10 @@
+# Problem 38
+
+
+Use the solutions of problems 34 and 37 to compare the algorithms. Measure the time for each to solve phi of 10090.
+```
+import Html exposing (text)
+
+```
+
+

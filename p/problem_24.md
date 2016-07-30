@@ -1,0 +1,23 @@
+# Problem 24
+
+Draw n different random numbers from a range of numbers.
+
+```
+randomSelect 6 6 49
+```
+
+Example result:
+
+```
+[14, 19, 28, 31, 33, 48]
+```
+
+## Unit Test
+```
+
+```
+
+## Hints
+
+##Solutions 
+[Solutions](problem_24_solutions.md)

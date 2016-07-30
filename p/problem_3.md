@@ -1,0 +1,49 @@
+# Problem 3
+Implement the function ```elementAt``` to return the n-th element of a list. The index is 1-relative, that is, the first element is at index 1.  
+
+##Example:
+```elm
+elementAt [3, 4, 5, 6] 2 == Just 4
+```
+
+
+## Unit Test
+```elm
+import Html exposing (text)
+import List 
+import Maybe
+
+
+elementAt : List a -> Int -> Maybe a
+elementAt xs n =
+    -- your implementation here
+    Nothing
+
+
+main =
+    text
+        (if (test) then
+            "Your implementation passed all tests."
+         else
+            "Your implementation failed at least one test."
+        )
+
+
+test : Bool
+test =
+    List.all ((==) True)
+        [ ( elementAt [1..4] 2 == Just 2 )
+        , ( elementAt [ 1 ] 2 == Nothing )
+        , ( elementAt [] 2 == Nothing )
+        , ( elementAt [] (-1) == Nothing )
+        , ( elementAt [ 'a', 'b', 'c' ] 2 == Just 'b' )
+        ]
+```
+
+## Hints
+1. Use recursion.
+2. Use ```List.drop```.
+
+[Solutions](problem_3_solutions.md)
+
+   

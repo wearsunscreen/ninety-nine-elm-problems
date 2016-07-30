@@ -1,0 +1,77 @@
+# Problem 1
+
+Write a function ```last``` that returns the last element of a list. An empty list doesn't have a last element, therefore ```last``` must return a Maybe. 
+
+##Example
+Cut and paste the following code into the online compiler [http://elm-lang.org/try](http://elm-lang.org/try). Insert your implementation of ```last``` and test.
+
+```elm
+import Html exposing (text)
+import Maybe
+
+
+last : List a -> Maybe a
+last xs = 
+  -- your implementation goes here
+  Nothing
+
+
+main =
+    case last [ 1, 2, 3, 4 ] of
+        Just a ->
+            text (toString a)
+
+        Nothing ->
+            text "No element found"
+ ```
+
+Result:
+
+```
+4
+```
+
+## Unit Test 
+Let's create a more complete test, checking ```last``` against an empty list and lists of different types. We will use ```assertEqual``` which takes a tuple, where the first element will hold a test condition and the second holds the expected result. This will allow us to test multiple conditions concisely.
+
+Cut and paste the following code into the online compiler [http://elm-lang.org/try](http://elm-lang.org/try). Insert your implementation of ```last``` and test.
+
+```elm
+import Html exposing (text)
+import List exposing (all)
+import Maybe
+
+
+last : List a -> Maybe a
+last xs =
+    -- your implementation goes here
+    Nothing
+    
+
+main =
+    text
+        (if (test) then
+            "Your implementation passed all tests."
+         else
+            "Your implementation failed at least one test."
+        )
+        
+
+test : Bool
+test =
+    List.all ((==) True)
+        [ last [1..4] == Just 4
+        , last [ 1 ] == Just 1
+        , last [] == Nothing
+        , last [ 'a', 'b', 'c' ] == Just 'c'
+        ]
+
+```
+
+## Hints
+Here are 2 hints to solve the problem:
+1. Use recursion.
+2. How can you leverage a List's ```head``` function to solve this problem? 
+
+## Solutions
+After you've solved the problem, check out [these solutions](problem_1_solutions.md).

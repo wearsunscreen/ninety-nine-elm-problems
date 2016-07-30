@@ -1,0 +1,30 @@
+# Problem 80
+Implement the following functions to convert between the different graph representations. 
+
+```
+graphToAdjList g : Graph -> AdjacencyList
+
+adjListToGraph al : AdjancencyList -> Graph
+
+edgesToGraph e : Edges -> Graph
+
+```
+
+```
+import Html exposing (text)
+
+
+al = [('b',['c','f']), ('c',['b','f']), ('d',[]), ('f',['b','c','k']), ('g',['h'])]
+
+
+g = ['b','c','d','f','g','h','k'],[('b','c'),('b','f'),('c','f'),('f','k'),('g','h')]
+
+
+main =
+    text toString (== (graphToAdjList g) (adjListToGraph al) )         
+```
+
+Result
+```
+True
+```

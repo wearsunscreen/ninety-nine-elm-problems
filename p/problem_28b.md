@@ -1,0 +1,58 @@
+# Problem 28.b
+
+Sort a list according to the frequency of the sublist length. Place lists with rare lengths first, those with more frequent lengths come later. If the frequency of two or more sublists are equal the any order is acceptable. 
+
+##Example
+```
+(map List.length 
+  <| sortByLengthFrequency 
+  [[1],[2],[3],[6,7,8],[2,34,5],[]])
+  == [0, 3, 3, 1, 1, 1]
+```
+## Unit Test
+```
+import Html exposing (text)
+import List exposing (map)
+
+
+sortByLengthFrequency : List (List a) -> List (List a) 
+sortByLengthFrequency xs = 
+    -- your implementation goes here
+    []
+
+main =
+    text
+        (if (test) then
+            "Your implementation passed all tests."
+         else
+            "Your implementation failed at least one test."
+        )
+
+
+test : Bool
+test =
+    List.all ((==) True)
+        [ (map List.length 
+            <| sortByLengthFrequency [[1],[2],[3],[6,7,8],[2,34,5],[]])
+            == [0, 3, 3, 1, 1, 1]
+        , (map List.length 
+            <| sortByLengthFrequency [[1],[2],[3],[6],[2],[1..100000]])
+            == [100000, 1, 1, 1, 1, 1]
+        , (map List.length 
+            <| sortByLengthFrequency [[1,2,3],[6,7,8],[0],[2,3,5]])
+            == [1, 3, 3, 3]
+        , (map List.length 
+            <| sortByLengthFrequency [[]])
+            == [0]
+        ]
+
+```
+
+## Hints
+1. First find the frequency for each list length, then use that to sort. You may need to partially apply the length/frequency data to the comparison function you pass to ```List.sortBy```.
+2. The module List.extra ([link](http://package.elm-lang.org/packages/circuithub/elm-list-extra/3.10.0/List-Extra)), not available on [http://elm-lang.org/try](http://elm-lang.org/try), provides a groupBy function. If you group by length, you could then sort the groups and flatten again. 
+
+
+
+##Solutions 
+[Solutions](problem_28b_solutions.md)

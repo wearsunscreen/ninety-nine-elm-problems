@@ -1,0 +1,58 @@
+# Problem 64
+
+To draw a tree a layout algorithm determines the position of each node in a rectangular grid. Several layout methods are conceivable, one of them is illustrated below:
+
+![](p64.gif)
+In this layout strategy, the following two rules determine the position:
+* ```x(v)``` is equal to the position of the node ```v``` in the inorder sequence
+* ```y(v)``` is equal to the depth of the node ```v``` in the tree. 
+
+Write a function to annotate each node of the tree with its position. 
+```
+import Html exposing (text)
+
+type Tree a
+    = Empty
+    | Node a (Tree a) (Tree a)
+
+tree64 = Tree 'n'
+                (Tree 'k'
+                        (Tree 'c'
+                                (Tree 'a' Empty Empty)
+                                (Tree 'h'
+                                        (Tree 'g'
+                                                (Tree 'e' Empty Empty)
+                                                Empty
+                                        )
+                                        Empty
+                                )
+                        )
+                        (Tree 'm' Empty Empty)
+                )
+                (Tree 'u'
+                        (Tree 'p'
+                                Empty
+                                (Tree 's'
+                                        (Tree 'q' Empty Empty)
+                                        Empty
+                                )
+                        )
+                        Empty
+                )
+                
+layoutTree : Tree a -> Tree (a, (Int, Int)) 
+layoutTree tree = 
+-- your implementation goes here
+
+main = 
+  text 
+  <| toString 
+  <| layoutTree tree64   
+  
+```
+Result
+```
+Tree ('n',(8,1)) (Tree ('k',(6,2)) (Tree ('c',(2,3)) ...
+
+```
+

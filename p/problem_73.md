@@ -1,0 +1,49 @@
+# Problem 73
+![Lisp-like tree representation.](p73.png)
+
+a) Write a function of represent a multiway tree as a String, using the "Lispy" convention illustrated above. 
+
+b) Build an Tree from a "Lispy" string. 
+
+```
+import Html exposing (text)
+
+
+type Tree a = Node a List (Tree a)
+
+
+tree1 = Node 'a' []
+tree2 = Node 'a' [Node 'b' []]
+tree3 = Node 'a' [Node 'b' [Node 'c' []]]
+tree4 = Node 'b' [Node 'd' [], Node 'e' []]
+tree5 = 
+  Node 'a' 
+    [ Node 'f' 
+      [ Node 'g' []]
+      , Node 'c' []
+      , Node 'b' 
+        [ Node 'd' []
+        , Node 'e' []
+      ]
+    ]
+
+
+lispify : Tree a -> String
+lispify t = -- your implementation here
+
+
+delispify : String -> Tree
+delispify s = -- your implementation here
+
+
+main =
+    text
+        <| toString
+        <| == (lispify tree4) (delispify "Node 'b' [Node 'd' [], Node 'e' []]"
+        
+```
+
+Result
+```
+['g', 'f', 'c', 'd', 'e', 'b', 'a']
+```

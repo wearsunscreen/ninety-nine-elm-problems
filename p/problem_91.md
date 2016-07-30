@@ -1,0 +1,29 @@
+# Problem 91
+
+Another famous problem is *The Knight's Tour*. The challenge is to find a path for a knight jump on an NxN chessboard such that it visits every square exactly once.
+
+Represent the squares by pairs of integer coordinates between 1 and N and the solution as a list of positions.
+
+```
+import Html exposing (text)
+
+
+knightsTour : Int ->  List (Int, Int)
+knightsTour n = 
+  -- your implementation here
+
+
+main = text <| toString <| knightsTour 8
+```
+
+Possible result:
+```
+[(2,7),(3,5),(5,6),(4,8),(3,6),(4,4),(6,5),(4,6),
+(5,4),(7,5),(6,3),(5,5),(4,3),(2,4),(1,6),(2,8),
+(4,7),(6,8),(8,7),(6,6),(4,5),(6,4),(5,2),(7,1),
+(8,3),(6,2),(8,1),(7,3),(8,5),(7,7),(5,8),(3,7),
+(1,8),(2,6),(3,4),(1,5),(2,3),(3,1),(1,2),(3,3),
+(1,4),(2,2),(4,1),(5,3),(7,4),(8,2),(6,1),(4,2),
+(2,1),(1,3),(2,5),(1,7),(3,8),(5,7),(7,8),(8,6),
+(6,7),(8,8),(7,6),(8,4),(7,2),(5,1),(3,2),(1,1)]
+```

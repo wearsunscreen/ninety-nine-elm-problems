@@ -1,0 +1,25 @@
+# Problem 47
+
+Redefine functions from [Problem 46](problem_46.md) as infix operators. The Elm website explains the [syntax to define infix operators](http://elm-lang.org/docs/syntax#infix-operators).  
+
+```
+import Html exposing (text)
+
+truthTable : (Bool -> Bool -> Bool) -> String 
+isPrime n = 
+-- your implementation goes here
+
+main = 
+  text 
+  <| toString 
+  <| truthTable (\a b -> (a and' (a or' b)))  
+```
+
+Result
+```
+a=True  b=True  True
+a=True  b=False True
+a=False b=True  False
+a=False b=False False  
+```
+

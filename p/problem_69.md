@@ -1,0 +1,43 @@
+# Problem 69
+
+Using the preorder sequence of values and dots (.) to represent empty subtrees we can unambiguously represent a binary tree. 
+
+a) Write a function to represent a tree as a dot-string. 
+
+b) Write a function to build a tree from a dot-string.
+
+```
+import Html exposing (text)
+
+
+type Tree a
+    = Empty
+    | Node a (Tree a) (Tree a)
+
+
+tree69 = "abd..e..c.fg..."
+
+
+dotToTree : String -> Tree String
+dotToTree s =
+  -- your implementation here
+
+
+treeToDot : Tree String -> String
+treeToDot s =
+  -- your implementation here
+
+
+main =
+    text 
+        <| treeToDot 
+        <| dotToTree tree69
+```
+        
+Result
+```
+abd..e..c.fg...
+```
+
+
+

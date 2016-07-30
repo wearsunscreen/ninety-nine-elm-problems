@@ -1,0 +1,53 @@
+# Problem 35
+Determine the prime factors of a given positive integer. Construct a flat list containing the prime factors in ascending order.
+
+Example:
+```
+primeFactors 315 == [3, 3, 5, 7]
+```
+
+## Unit Test
+```
+
+import Html 
+import List
+import Maybe
+
+
+primeFactors : Int -> List Int
+primeFactors n =
+    -- your implementation here
+    []
+    
+           
+main =
+    Html.text
+        (if (test) then
+            "Your implementation passed all tests."
+         else
+            "Your implementation failed at least one test."
+        )
+
+
+test : Bool
+test =
+    List.all (\(result, expect) -> result == expect)
+        [ ( primeFactors 36, [2, 2, 3, 3] )
+          , ( primeFactors 10, [2, 5] )
+          , ( primeFactors -1, [] )
+          , ( primeFactors 1, [] )
+          , ( primeFactors 0, [] )
+          , ( primeFactors 120, [2, 2, 2, 3, 5] )
+          , ( primeFactors 2, [2] )
+          , ( primeFactors 23, [23] )
+          , ( primeFactors 69146, [2, 7, 11, 449] )
+          , ( primeFactors 9007, [9007] )
+          , ( primeFactors 36028, [2, 2, 9007] )
+          , ( primeFactors 26028, [2, 2, 3, 3, 3, 241] )
+        ]        
+```
+## Hints
+1. Use ```primesRange``` from  [Problem 39](problem_39.md) to give you all the prime numbers from 2 to n, and search for factors.
+2. Try to implement the solution without ```primesRange```. Instead use ```dropWhile``` from [Problem 8](problem_8_solutions.md) to filter to the factors.
+## Solutions
+[Solutions](problem_35_solutions.md)

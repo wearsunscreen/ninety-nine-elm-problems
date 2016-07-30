@@ -1,0 +1,58 @@
+# Problem 36
+
+Construct a list containing the prime factors and their multiplicity for a given integer.
+
+Example:
+```
+primeFactorsM 315 = [(3, 2), (5,1), (7,1)]
+```
+
+##Unit Test
+```
+module Main exposing (..)
+
+import Html
+import List
+
+
+primeFactorsM : Int -> List ( Int, Int )
+primeFactorsM n =
+    -- your implementation here
+    
+
+main =
+    Html.text
+        (if (test) then
+            "Your implementation passed all tests."
+         else
+            "Your implementation failed at least one test."
+        )
+
+
+test : Bool
+test =
+    List.all (\( result, expect ) -> result == expect)
+        [ ( primeFactorsM 36, [ ( 2, 2 ), ( 3, 2 ) ] )
+        , ( primeFactorsM 10, [ ( 2, 1 ), ( 5, 1 ) ] )
+        , ( primeFactorsM -1, [] )
+        , ( primeFactorsM 1, [] )
+        , ( primeFactorsM 0, [] )
+        , ( primeFactorsM 120, [ ( 2, 3 ), ( 3, 1 ), ( 5, 1 ) ] )
+        , ( primeFactorsM 2, [ ( 2, 1 ) ] )
+        , ( primeFactorsM 23, [ ( 23, 1 ) ] )
+        , ( primeFactorsM 69146, [ ( 2, 1 ), ( 7, 1 ), ( 11, 1 ), ( 449, 1 ) ] )
+        , ( primeFactorsM 9007, [ ( 9007, 1 ) ] )
+        , ( primeFactorsM 36028, [ ( 2, 2 ), ( 9007, 1 ) ] )
+        , ( primeFactorsM 26028, [ ( 2, 2 ), ( 3, 3 ), ( 241, 1 ) ] )
+        ]
+```
+##Hints
+1. Combine code from problems [9](problem_9.md), [10](problem_10.md) and [35](problem_35.md)
+
+##Solutions
+[Solutions](problem_36_solutions.md)
+
+
+
+
+

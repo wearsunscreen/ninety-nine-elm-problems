@@ -1,0 +1,121 @@
+# Problem 37
+
+Calculate Euler's totient function phi(m) (improved).
+
+See [problem 34](problem_34.md) for the definition of Euler's totient function. If the list of the prime factors of a number ```m``` is known in the form of [problem 36](problem_36.md) then the function phi(m) can be efficiently calculated as follows: 
+```
+Let ((p1 m1) (p2 m2) (p3 m3) ...) be the list of prime
+factors and their multiplicities) of a given number m. 
+Then phi(m) can be calculated with the following formula:
+
+phi(m) = ((p1 - 1) * p1 ^ (m1 - 1)) * 
+         ((p2 - 1) * p2 ^ (m2 - 1)) * 
+         ((p3 - 1) * p3 ^ (m3 - 1)) * ...
+```
+
+##Unit Test
+```
+import Html exposing (text)
+import List
+
+
+phi : Int -> Int 
+phi n = 
+    -- your implementation here
+    0
+
+
+primeFactors : Int -> List Int
+primeFactors n =
+    if n < 2 then
+        []
+    else
+        let
+            prime =
+                Maybe.withDefault 0
+                    <| List.head
+                    <| dropWhile (\x -> n % x /= 0) [2..n]
+        in
+            prime :: (primeFactors <| n // prime)
+
+
+takeWhile : (a -> Bool) -> List a -> List a
+takeWhile predicate xs =
+    case xs of
+        [] ->
+            []
+
+        hd :: tl ->
+            if (predicate hd) then
+                hd :: takeWhile predicate tl
+            else
+                []
+
+
+dropWhile : (a -> Bool) -> List a -> List a
+dropWhile predicate list =
+    case list of
+        [] ->
+            []
+
+        x :: xs ->
+            if (predicate x) then
+                dropWhile predicate xs
+            else
+                list
+     
+main' = Html.text <| toString <| List.product []
+main =
+    Html.text 
+        (if (test) then
+            "Your implementation passed all tests."
+         else
+            "Your implementation failed at least one test."
+        )
+
+
+test : Bool
+test =
+    List.all (\( result, expect ) -> result == expect)
+        [ ( phi 36, totient 36)
+        , ( phi 10, totient 10)
+        , ( phi 1, totient 1)
+        , ( phi 0, totient 0)
+        , ( phi 120, totient 120)
+        , ( phi 2, totient 2)
+        , ( phi 23, totient 23)
+        , ( phi 69145, totient 69145)
+        , ( phi 9007, totient 9007)
+        , ( phi 36028, totient 36028)
+        , ( phi 26028, totient 26028)
+        ]
+
+totient :  Int -> Int
+totient n = 
+    List.length <| coprimes n
+
+
+coprimes :  Int -> List Int
+coprimes n = 
+    List.filter (\x -> coprime n x) [1..n]
+
+
+coprime :  Int -> Int -> Bool
+coprime a b = 
+    gcd a b == 1
+
+
+gcd : Int -> Int -> Int 
+gcd a b =
+    if b == 0 then  
+        abs a
+    else
+        gcd b (a % b)
+
+```
+
+##Hints
+1. Can you use the special fold ```List.product```? 
+2. 
+##Solutions
+[Solutions](problem_37_solutions.md)
