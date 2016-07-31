@@ -9,3 +9,6 @@ Type Maybe a = Just a | Nothing.
 ```
 
 We see ```Maybe``` is a union type. A ```Maybe``` must either  be a  ```Just``` or a ```Nothing```. Also it is parameterized, so we can use it for lists of any type.
+
+
+#Problems
