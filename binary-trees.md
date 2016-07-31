@@ -14,11 +14,15 @@
 
 [Problem 60](p/p60.md) -  Generate height-balanced trees with a give number of nodes. 
 
-[Problem 61](p/p61.md) - Generate height-balanced trees with a give number of nodes.
+[Problem 61a](p/p61a.md) - Count the leaves of a tree.
 
-[Problem 62](p/p62.md) - Generate height-balanced trees with a give number of nodes.
+[Problem 61b](p/p61b.md) - Collect the leaves of tree into a list.
 
-[Problem 63](p/p63.md) - Generate height-balanced trees with a give number of nodes.
+[Problem 62a](p/p62a.md) - Count the internal nodes of a tree.
+
+[Problem 62b](p/p62b.md) - Collect the  internal nodes of tree into a list.
+
+[Problem 63](p/p63.md) - Construct a complete binary tree.
 
 [Problem 64](p/p64.md) - Generate height-balanced trees with a give number of nodes.
 
