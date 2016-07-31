@@ -1,5 +1,6 @@
 # The Problems
 
+This section presents the 99 problems as they were first presented in 99 Problems in Prolog. 
 ##Problem presentation
 Each problem has:
 
