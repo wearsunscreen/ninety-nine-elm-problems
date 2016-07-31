@@ -25,3 +25,10 @@ Since List.Extra is not part of the Elm core we won't use the module in this boo
 
 [Extra 2](p/e02.md) - takeWhile
 
+
+## More problems
+
+
+[Problem 8](p/p08.md) - Eliminate consecutive duplicate elements from a list.
+
+[Problem 9](p/p09.md) - Place consecutive duplicate elements of a list into a list of lists.
