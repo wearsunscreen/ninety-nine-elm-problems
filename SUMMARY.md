@@ -123,9 +123,11 @@
   * [Problem 92](p/p92.md)
   * [Problem 93](p/p93.md)
   * [Problem 94](p/p94.md)
-  * [Problem 95](p/p95.md)
+ * [Problem 95](p/p95.md)
 
-* [The Solutions](the_solutions.md)
+ * [Problem 95](p/p95.md)
+
+ *[The Solutions](the_solutions.md)
   * [Problem 1 Solutions](s/s01.md)
   * [Problem 2 Solutions](s/s02.md)
   * [Problem 3 Solutions](s/s03.md)
