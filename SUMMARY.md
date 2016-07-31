@@ -14,7 +14,8 @@
     * [Arithmetic](arithmetic.md)
     * [Logic and Codes](logic-and-codes.md)
     * [Binary Trees](binary-trees.md)
-    * [Multi-way Trees](multi-way_trees.md)
+    * [Multi-way Trees](multi-way-trees.md)
+    * [Multiway Trees](multi-way_trees.md)
         * [Problem 71](problem_71.md)
         * [Problem 72](problem_72.md)
         * [Problem 73](problem_73.md)
@@ -30,7 +31,7 @@
         * [Problem 87](problem_87.md)
         * [Problem 88](problem_88.md)
         * [Problem 89](problem_89.md)
-    * Binary Trees
+    * Multi-way Trees
 * [The Solutions](the_solutions.md)
     * [Problem 1 Solutions](problem_1_solutions.md)
     * [Problem 2 Solutions](problem_2_solutions.md)
