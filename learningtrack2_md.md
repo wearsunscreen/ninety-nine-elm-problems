@@ -1,6 +1,6 @@
 # Learning Track
 
-The problems are numbered to match the previous versions of _99 Problems_. This is not the best order to tackle the problems if you are new, or new-ish to functional programming. The Learning Track presents a order designed to learn functional programming in a sequence that builds from the most basic idioms to more complex. Each section presents a new technique and problems that you can solve with that technique. The problems let you develop experience before moving on to the next concept.
+The problems are numbered to match the original _99 Problems in Prolog_. This is not the best order to tackle the problems if you are new, or new-ish to functional programming. This Learning Track presents an order designed to learn functional programming in a sequence that builds from the most basic idioms to more complex. The problems let you develop experience before moving on to the next concept. Each section presents a new technique and problems that you can solve with that technique. 
 
 1. Simple List functions
 2. Recursion
@@ -22,5 +22,5 @@ Each section will have links to problems in order from simple to complex. This w
 
 ## How to get the most from this book
 
-Copy the unit test into the Elm online editor, [http:\/\/elm-lang.org\/try](http://elm-lang.org/try). Before checking the hints or the solutions page, attempt to solve the problem by yourself. Apply what you learned from the previous problems to solve the later problems. Then check the hints and see if that doesn't inspire other solutions or improvements to your own. Finally, check the solutions page to learn from those examples.
+Copy the unit test into the Elm online editor, [http:/elm-lang.org/try](http://elm-lang.org/try). Before checking the hints or the solutions page, attempt to solve the problem by yourself. Apply what you learned from the previous problems to solve the later problems. Then check the hints and see if that doesn't inspire other solutions or improvements to your own. Finally, check the solutions page to learn from those examples.
 
