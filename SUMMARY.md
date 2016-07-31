@@ -132,8 +132,8 @@
   * [Problem 4 Solutions](s/s04.md)
   * [Problem 5 Solutions](s/s05.md)
   * [Problem 6 Solutions](s/s06.md)
-  * [Extra 1 Solutions](extra_1_solutions.md)
-  * [Extra 2 Solutions.md](extra2_solutions_md.md)
+  * [Extra 1 Solutions](s/e01.md)
+  * [Extra 2 Solutions.md](s/e02.md)
   * [Problem 8 Solutions](s/s08.md)
   * [Problem 9 Solutions](s/s09.md)
   * [Problem 10 Solutions](s/s10.md)
@@ -235,7 +235,6 @@
   * [Problem 96 Solutions](s/s96.md)
   * [Problem 97 Solutions](s/s97.md)
   * [Problem 98 Solutions](s/s98.md)
-  * [Extra 2 Solutions.md](extra2_solutions_md.md)
 
 * [Notes](notes.md)
 * [Template](template.md)
