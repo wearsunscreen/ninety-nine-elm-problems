@@ -12,4 +12,6 @@
 
 [Problem 27](p/p27.md) - Generate all disjoint sets of elements of a list.
 
-[Problem 28](p/p28.md) - Generate all disjoint sets of elements of a list.
+[Problem 28a](p/p28a.md) - Sort a list of lists by their lengths.
+
+[Problem 28a](p/p28a.md) - Sort a list of lists by their lengths.
