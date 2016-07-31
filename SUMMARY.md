@@ -16,7 +16,6 @@
     * [Binary Trees](binary-trees.md)
     * [Multi-way Trees](multi-way-trees.md)
     * [Graphs](graphs.md)
-    * [Graphs](graphs.md)
 * [The Solutions](the_solutions.md)
     * [Problem 1 Solutions](problem_1_solutions.md)
     * [Problem 2 Solutions](problem_2_solutions.md)
