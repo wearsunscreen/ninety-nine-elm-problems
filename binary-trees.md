@@ -32,7 +32,13 @@
 
 [Problem 67](p/p67.md) - Generate a string representation of a tree.
 
-[Problem 68](p/p68.md) - Generate height-balanced trees with a give number of nodes.
+[Problem 68a](p/p68a.md) - Generate a string representation of a tree in pre-order. 
+
+[Problem 68b](p/p68b.md)  - Generate a tree from a in-order. 
+
+[Problem 68c](p/p68c.md) - Generate a tree from a pre-order list of nodes. 
+
+[Problem 68d](p/p68d.md) - Generate height-balanced trees with a give number of nodes.
 
 [Problem 69](p/p69.md) - Generate height-balanced trees with a give number of nodes.
 
