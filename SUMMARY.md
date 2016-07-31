@@ -97,13 +97,13 @@
     * [Problem 77](p/p77.md)
     * [Problem 78](p/p78.md)
     * [Problem 79](p/p79.md)
-    * [Problem 80a](p/p80.md)
-    * Problem 80b
-    * Problem 80c
-    * Problem 80d
-    * Problem 80e
+    * [Problem 80a](p/80a.md)
+    * [Problem 80b](problem-80b.md)
+    * [Problem 80c](p/p80c.md)
+    * [Problem 80d](p/p80d.md)
+    * [Problem 80e](p/p80e.md)
     * [Problem 80f](p/p80f.md)
-    * Problem 80g
+    * [Problem 80g](p/p80g.md)
     * [Problem 81](p/p81.md)
     * [Problem 82](p/p82.md)
     * [Problem 83](p/p83.md)
