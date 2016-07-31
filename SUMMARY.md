@@ -11,7 +11,7 @@
     * [Lists](lists.md)
     * [Lists and Tuples](lists-tuples-and-union-types.md)
     * [Combinations, Permutations, Randomness](combinations-permutations-randomness.md)
-    * Arithmetic
+    * [Arithmetic](arithmetic.md)
     * [Arithmetic](arithmetic.md)
         * [Problem 31](problem_31.md)
         * [Problem 32](problem_32.md)
