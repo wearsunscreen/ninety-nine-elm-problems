@@ -114,8 +114,15 @@
   * [Extra 2 Solutions.md](extra2_solutions_md.md)
 
 * [All problems](all-problems.md)
-  * [Problem 1](p/p01.md)
-
+   * [Problem 1](p/p01.md)
+   * [Problem 2](p/p02.md)
+   * [Problem 3](p/p03.md)
+   * [Problem 4](p/p04.md)
+   * [Problem 5](p/p05.md)
+   * [Problem 6](p/p06.md)
+   * [Problem 7](p/p07.md)
+   * [Problem 8](p/p08.md)
+   * [Problem 9](p/p09.md)
 * [Notes](notes.md)
 * [Template](template.md)
 * [Utility Functions](utility_functions.md)
