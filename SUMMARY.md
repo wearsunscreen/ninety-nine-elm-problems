@@ -10,7 +10,7 @@
 * [The Problems](the_problems.md)
     * [Lists](lists.md)
     * [Lists and Tuples](lists-tuples-and-union-types.md)
-    * [Combinations, Permutations, Randomness](combinations-permutations-randomness.md)
+    * [Combinations, Permutations, Randomness, Sorting](combinations-permutations-randomness.md)
     * [Arithmetic](arithmetic.md)
     * [Arithmetic](arithmetic.md)
         * [Problem 31](problem_31.md)

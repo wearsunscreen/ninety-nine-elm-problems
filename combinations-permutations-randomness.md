@@ -1,4 +1,4 @@
-# Combinations, Permutations, Randomness
+# Combinations, Permutations, Randomness, Sorting
 
 ## Problems
 
@@ -14,4 +14,4 @@
 
 [Problem 28a](p/p28a.md) - Sort a list of lists by their lengths.
 
-[Problem 28a](p/p28a.md) - Sort a list of lists by their lengths.
+[Problem 28b](p/p28b.md) - Sort a list of lists by the frequency of their lengths.
