@@ -116,7 +116,6 @@
     * [Problem 96](p/p96.md)
     * [Problem 97](p/p97.md)
     * [Problem 98](p/p98.md)
-    * Problem 68b
 * [The Solutions](the_solutions.md)
     * [Problem 1 Solutions](problem_1_solutions.md)
     * [Problem 2 Solutions](problem_2_solutions.md)
