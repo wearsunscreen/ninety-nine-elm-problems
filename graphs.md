@@ -16,17 +16,21 @@
 
 [Problem 80g](p/p80g.md) - Convert from a graph from  adjancency-list to human-friendly representation.
 
-[Problem 81](p/p81.md) - Convert from a graph from adjancency-list to human-friendly representation.
+[Problem 81](p/p81.md) - Find the path between two nodes.
 
-[Problem 82](p/p82.md) - Convert from a graph from adjancency-list to human-friendly representation.
+[Problem 82](p/p82.md) - Cycle from a given node.
 
-[Problem 83](p/p83.md) - Convert from a graph from adjancency-list to human-friendly representation.
+[Problem 83](p/p83.md) - Generate all spanning trees of a graph.
 
-[Problem 84](p/p84.md) - Convert from a graph from adjancency-list to human-friendly representation.
+[Problem 84](p/p84.md) - Construct the minimum spanning tree of a graph.
 
-[Problem 85](p/p85.md) - Convert from a graph from adjancency-list to human-friendly representation.
+[Problem 85](p/p85.md) - Determine if two graphs are isomorphic.
 
-[Problem 86](p/p86.md) - Convert from a graph from adjancency-list to human-friendly representation.
+[Problem 86a](p/p86a.md) - Determine the degree of a node.
+
+[Problem 86b](p/p86b.md) - Determine the degree of all nodes of a graph.
+
+[Problem 86c](p/p86c.md) - Use the Welch-Powel algorithm to paint the nodes of a graph such that adjacent nodes have different colors.
 
 [Problem 87](p/p87.md) - Convert from a graph from adjancency-list to human-friendly representation.
 
