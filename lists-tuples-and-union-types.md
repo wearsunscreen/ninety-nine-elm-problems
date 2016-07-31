@@ -15,6 +15,10 @@ is different from a
 
 ##Problems
 
+[Problem 8](p/p08.md) - Eliminate consecutive duplicate elements from a list.
+
+[Problem 9](p/p09.md) - Place consecutive duplicate elements of a list into a list of lists.
+
 [Problem 10](p/p10.md) - Find runs in a list.
 
 [Problem 11](p/p11.md) - Run length encode a list with tuples.

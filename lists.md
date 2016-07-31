@@ -14,9 +14,6 @@ Lists are a fundamental data of functional programming languges. In statically t
 
 [Problem 6](p/p06.md) - Determine if a list is a palindrome.
 
-[Problem 8](p/p08.md) - Eliminate consecutive duplicate elements from a list.
-
-[Problem 9](p/p09.md) - Place consecutive duplicate elements of a list into a list of lists.
 
 ##List Extras
 
