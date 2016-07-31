@@ -15,3 +15,21 @@
 [Problem 80f](p/p80f.md) - Convert from a graph from human-friendly to  adjancency-list  representation.
 
 [Problem 80g](p/p80g.md) - Convert from a graph from  adjancency-list to human-friendly representation.
+
+[Problem 80g](p/p80g.md) - Convert from a graph from adjancency-list to human-friendly representation.
+
+[Problem 80g](p/p80g.md) - Convert from a graph from adjancency-list to human-friendly representation.
+
+[Problem 80g](p/p80g.md) - Convert from a graph from adjancency-list to human-friendly representation.
+
+[Problem 80g](p/p80g.md) - Convert from a graph from adjancency-list to human-friendly representation.
+
+[Problem 80g](p/p80g.md) - Convert from a graph from adjancency-list to human-friendly representation.
+
+[Problem 80g](p/p80g.md) - Convert from a graph from adjancency-list to human-friendly representation.
+
+[Problem 80g](p/p80g.md) - Convert from a graph from adjancency-list to human-friendly representation.
+
+[Problem 80g](p/p80g.md) - Convert from a graph from adjancency-list to human-friendly representation.
+
+[Problem 80g](p/p80g.md) - Convert from a graph from adjancency-list to human-friendly representation.
