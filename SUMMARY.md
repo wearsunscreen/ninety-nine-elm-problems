@@ -104,6 +104,7 @@
     * [Problem 42 Solutions](problem_42_solutions.md)
     * [Extra 1 Solutions](extra_1_solutions.md)
     * [Extra 2 Solutions.md](extra2_solutions_md.md)
+* [All problems](all-problems.md)
 * [Notes](notes.md)
 * [Template](template.md)
 * [Utility Functions](utility_functions.md)
