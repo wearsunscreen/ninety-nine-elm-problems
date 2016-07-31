@@ -38,11 +38,11 @@
 
 [Problem 68c](p/p68c.md) - Generate a tree from a pre-order list of nodes. 
 
-[Problem 68d](p/p68d.md)  - Generate a tree from a pre-order and in-order list of nodes. .
+[Problem 68d](p/p68d.md)  - Generate a tree from a pre-order and in-order lists of nodes.
 
 [Problem 69](p/p69.md) - Generate height-balanced trees with a give number of nodes.
 
-[Problem 70](p/p70.md) - Generate height-balanced trees with a give number of nodes.
+[Problem 70](p/p70.md) - Generate a dot-string representation of a tree. 
 
 
 
