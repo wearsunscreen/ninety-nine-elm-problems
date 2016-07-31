@@ -13,12 +13,8 @@ We see ```Maybe``` is a union type. A ```Maybe``` must either  be a  ```Just``` 
 
 ##Problems returning Maybe
 
-Let's learn some basic functions from the `List` module.
+[Problem 1](p/p01.md) - Get last element of a list.
 
-## Problem 6
+[Problem 2](p/p02.md) - Get penultimate element of a list.
 
-```
-isPalindrome' : List a -> Bool
-```
-
-Solve [Problem 6](../p/p06.md) using `List.reverse`.
+[Problem 3](p/p03.md) - Get the element of a list at a specified index.
