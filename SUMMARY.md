@@ -97,7 +97,14 @@
     * [Problem 77](p/p77.md)
     * [Problem 78](p/p78.md)
     * [Problem 79](p/p79.md)
-    * [Problem 80](p/p80.md)
+    * [Problem 80a](p/p80.md)
+    * Problem 80b
+    * Problem 80b
+    * Problem 80c
+    * Problem 80d
+    * Problem 80e
+    * [Problem 80f](p/p80f.md)
+    * Problem 80g
     * [Problem 81](p/p81.md)
     * [Problem 82](p/p82.md)
     * [Problem 83](p/p83.md)
@@ -114,8 +121,7 @@
     * [Problem 94](p/p94.md)
     * [Problem 95](p/p95.md)
     * [Problem 96](p/p96.md)
-    * [Problem 97](p/p97.md)
-    * [Problem 98](p/p98.md)
+    * Problem 80g
 * [The Solutions](the_solutions.md)
     * [Problem 1 Solutions](problem_1_solutions.md)
     * [Problem 2 Solutions](problem_2_solutions.md)
