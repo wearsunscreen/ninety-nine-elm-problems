@@ -2,8 +2,11 @@
 
 ##Tuple
 A Tuple is a fixed length collection of elements. Unlike Lists, a tuple can mix types. The type of the tuple depends on the types of its elements. Thus a 
+
 `(Int, String) `
+
 is a different type from a 
+
 `(String, Int)`
 
 is different from a 
@@ -32,4 +35,7 @@ is different from a
 
 [Problem 20](p/p20.md) - Remove the element at a specified index.
 
+[Problem 21](p/p21.md) - Insert an element at a specified index.
 
+[Problem 22](p/p22.md) - Create a list of integers in a specified range
+.
