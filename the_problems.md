@@ -1,6 +1,7 @@
-# The Problems
+# The Problems by Category
 
-This section presents the 99 problems as they were first presented in 99 Problems in Prolog. 
+This section presents the 99 problems as they were first presented in 99 Problems in Prolog, arranged in topical groups. Each group will have links to full problem pages. 
+
 ##Problem presentation
 Each problem has:
 
