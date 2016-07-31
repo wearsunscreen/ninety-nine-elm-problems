@@ -11,4 +11,14 @@ Type Maybe a = Just a | Nothing.
 We see ```Maybe``` is a union type. A ```Maybe``` must either  be a  ```Just``` or a ```Nothing```. Also it is parameterized, so we can use it for lists of any type.
 
 
-#Problems
+##Problems returning Maybe
+
+Let's learn some basic functions from the `List` module.
+
+## Problem 6
+
+```
+isPalindrome' : List a -> Bool
+```
+
+Solve [Problem 6](../p/p06.md) using `List.reverse`.
