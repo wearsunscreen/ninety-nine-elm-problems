@@ -1,12 +1,5 @@
 # Lists and Tuples
 
-
-##Problems
-
-[Problem 8](p/p08.md) - Eliminate consecutive duplicate elements from a list.
-
-[Problem 9](p/p09.md) - Place consecutive duplicate elements of a list into a list of lists.
-
 ##What's a Tuple
 A Tuple is a fixed length collection of elements. Unlike Lists, a tuple can mix types. The type of the tuple depends on the types of its elements. Thus a
 
@@ -20,7 +13,7 @@ is different from a
 
 `(Int, String, String, String)`
 
-## More problems
+## Problems
 [Problem 10](p/p10.md) - Find runs in a list.
 
 [Problem 11](p/p11.md) - Run length encode a list with tuples.
