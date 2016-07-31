@@ -2,4 +2,6 @@
 
 ## Problems
 
-[Problem 80](p/p80.md) - Construct a multiway tree from a list of values.
+[Problem 80a](p/p80a.md) - Convert from a graph from graph-term to adjancency-list representation. 
+
+[Problem 80a](p/p80a.md) - Convert from a graph from graph-term to adjancency-list representation.
