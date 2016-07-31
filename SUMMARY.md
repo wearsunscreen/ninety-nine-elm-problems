@@ -12,6 +12,7 @@
     * [Lists and Tuples](lists-tuples-and-union-types.md)
     * [Combinations, Permutations, Randomness, Sorting](combinations-permutations-randomness.md)
     * [Arithmetic](arithmetic.md)
+    * [Logic and Codes](logic-and-codes.md)
     * [Logic](logic.md)
         * [Problem 46](problem_46.md)
         * [Problem 47](problem_47.md)
@@ -48,7 +49,7 @@
         * [Problem 87](problem_87.md)
         * [Problem 88](problem_88.md)
         * [Problem 89](problem_89.md)
-    * Arithmetic
+    * Logic and Codes
 * [The Solutions](the_solutions.md)
     * [Problem 1 Solutions](problem_1_solutions.md)
     * [Problem 2 Solutions](problem_2_solutions.md)
