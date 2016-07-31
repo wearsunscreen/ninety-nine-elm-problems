@@ -7,7 +7,7 @@
     * [Recursion on Lists](lt/recursion_on_lists.md)
     * [Folding](folding.md)
     * [Maybe, Just, Nothing](lt/maybe,_just,_nothing.md)
-* [The Problems](the_problems.md)
+* [Problems by Category](the_problems.md)
     * [Lists](lists.md)
     * [Lists and Tuples](lists-tuples-and-union-types.md)
     * [Combinations, Permutations, Randomness, Sorting](combinations-permutations-randomness.md)

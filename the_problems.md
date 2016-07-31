@@ -2,6 +2,7 @@
 
 ##Problem presentation
 Each problem has:
+
 1. Problem statement: Describes problem, and ask you to implement a solution. 
 2. Example: Presents a example of the function with input and the correct result. 
 3. Unit Test: A complete program that executes multiple tests of problem solution. You can use this program on the Elm online editor, [http://elm-lang.org/try](http://elm-lang.org/try). The stubbed-out function you need to implement will be at the top, just below the imports.
