@@ -14,6 +14,7 @@ Lists are a fundamental data of functional programming languges. In statically t
 
 [Problem 6](p/p06.md) - Determine if a list is a palindrome.
 
+---
 
 ##List Extras
 
@@ -25,7 +26,7 @@ Since List.Extra is not part of the Elm core we won't use the module in this boo
 
 [Extra 2](p/e02.md) - takeWhile
 
-
+---
 ## More problems
 
 
