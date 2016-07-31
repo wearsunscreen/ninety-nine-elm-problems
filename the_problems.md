@@ -1,9 +1,9 @@
 # The Problems by Category
 
-This section presents the 99 problems as they were first presented in 99 Problems in Prolog, arranged in topical groups. Each group will have links to full problem pages. 
+This section presents the 99 problems as they were first presented in 99 Problems in Prolog, arranged in topical groups. Each group will have links to the full problem pages. 
 
-##Problem presentation
-Each problem has:
+##Problem pages
+Each problem page has:
 
 1. Problem statement: Describes problem, and ask you to implement a solution. 
 2. Example: Presents a example of the function with input and the correct result. 
