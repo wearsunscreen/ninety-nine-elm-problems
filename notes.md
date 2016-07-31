@@ -3,7 +3,7 @@
 If you're interested in collaborating on the book, contact John at john.crane@gmail.com.
 ## Current status
 * Problems 23-27 need solutions. 
-* Problem 41-99 need solutions. 
+* Problem 50-99 need solutions. 
 ## Suggested improvements
 * Add functions to convert Strings to lists of character and vice versa, to make the problems more consistent with the Haskell, Lisp and Prolog predecessors.
 * explain backtracking
