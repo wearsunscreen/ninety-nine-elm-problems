@@ -4,7 +4,7 @@
 
 [Problem 31](p/p31.md) - Determine if an integer is prime.
 
-[Problem 32](p/p32.md) - Find teh greatest common denominator of two positive integers.
+[Problem 32](p/p32.md) - Find the greatest common denominator of two positive integers.
 
 [Problem 33](p/p33.md) - Determine if two integer are coprime.
 
