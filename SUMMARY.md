@@ -1,12 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Learning Track](learningtrack2_md.md)
-   * [Simple List Functions](lt/simple_list_functions.md)
-   * [Maybe, Just, Nothing](lt/maybe,_just,_nothing.md)
-   * [Recursion](lt/recursion.md)
-   * [Recursion on Lists](lt/recursion_on_lists.md)
-   * [Folding](folding.md)
 * All Problems
 * [Problems by Category](the_problems.md)
    * [Lists](lists.md)
@@ -18,6 +12,12 @@
    * [Multi-way Trees](multi-way-trees.md)
    * [Graphs](graphs.md)
    * [Puzzles](puzzles.md)
+* [Learning Track](learningtrack2_md.md)
+   * [Simple List Functions](lt/simple_list_functions.md)
+   * [Maybe, Just, Nothing](lt/maybe,_just,_nothing.md)
+   * [Recursion](lt/recursion.md)
+   * [Recursion on Lists](lt/recursion_on_lists.md)
+   * [Folding](folding.md)
 * [All Solutions](the_solutions.md)
    * [Problem 1 Solutions](s/s01.md)
    * [Problem 2 Solutions](s/s02.md)
