@@ -141,7 +141,6 @@
    * [Problem 10 Solutions](s/s10.md)
    * [Problem 11 Solutions](s/s11.md)
    * [Problem 12 Solutions](s/s12.md)
-   * [Problem 13 Solutions](s/s13.md)
    * [Problem 14 Solutions](s/s14.md)
    * [Problem 15 Solutions](s/s15.md)
    * [Problem 16 Solutions](s/s16.md)
