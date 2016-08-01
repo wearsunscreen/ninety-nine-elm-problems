@@ -18,7 +18,7 @@
    * [Graphs](graphs.md)
    * [Puzzles](puzzles.md)
 * All Problems
-   * Problem 1
+   * [Problem 1](p/p01.md)
 * [All Solutions](the_solutions.md)
    * [Problem 1 Solutions](s/s01.md)
    * [Problem 2 Solutions](s/s02.md)
