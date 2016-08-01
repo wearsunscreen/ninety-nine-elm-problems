@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* All Problems
 * [Problems by Category](the_problems.md)
    * [Lists](lists.md)
    * [Lists and Tuples](lists-tuples-and-union-types.md)
@@ -18,6 +17,7 @@
    * [Recursion](lt/recursion.md)
    * [Recursion on Lists](lt/recursion_on_lists.md)
    * [Folding](folding.md)
+* All Problems
 * [All Solutions](the_solutions.md)
    * [Problem 1 Solutions](s/s01.md)
    * [Problem 2 Solutions](s/s02.md)
