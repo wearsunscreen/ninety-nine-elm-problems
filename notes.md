@@ -4,7 +4,7 @@
 If you're interested in collaborating on the book place note on the discussion board or contact John at john.crane@gmail.com.
 
 ## Current status
-* Problem 10 solution can be improved 
+* Problem 9 solution can be improved 
 * Problems 23-27 need solutions. 
 * Problem 50-99 need solutions. 
 
