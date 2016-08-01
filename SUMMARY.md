@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * All Problems
 * [Learning Track](learningtrack2_md.md)
    * [Simple List Functions](lt/simple_list_functions.md)
    * [Maybe, Just, Nothing](lt/maybe,_just,_nothing.md)
@@ -18,6 +17,7 @@
    * [Multi-way Trees](multi-way-trees.md)
    * [Graphs](graphs.md)
    * [Puzzles](puzzles.md)
+* All Problems
 * [All Solutions](the_solutions.md)
    * [Problem 1 Solutions](s/s01.md)
    * [Problem 2 Solutions](s/s02.md)
