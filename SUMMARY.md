@@ -17,6 +17,7 @@
    * [Multi-way Trees](multi-way-trees.md)
    * [Graphs](graphs.md)
    * [Puzzles](puzzles.md)
+* All Problems
 * [All Solutions](the_solutions.md)
    * [Problem 1 Solutions](s/s01.md)
    * [Problem 2 Solutions](s/s02.md)
@@ -128,7 +129,6 @@
    * [Problem 97 Solutions](s/s97.md)
    * [Problem 98 Solutions](s/s98.md)
    * [Problem 99 Solutions](s/s99.md)
-* All Problems
 * [Notes](notes.md)
 * [Template](template.md)
 * [Utility Functions](utility_functions.md)
