@@ -1,7 +1,7 @@
 # Notes 
 
 ## Collaborators
-If you're interested in collaborating on the book, contact John at john.crane@gmail.com.
+If you're interested in collaborating on the book place note on the discussion board or contact John at john.crane@gmail.com.
 
 ## Current status
 * Problems 23-27 need solutions. 
