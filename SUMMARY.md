@@ -177,7 +177,7 @@
    * [Problem 48 Solutions](s/s48.md)
    * [Problem 49 Solutions](s/s49.md)
    * [Problem 50 Solutions](s/s50.md)
-   * [Problem 51 Solutions](s/s51.md)
+   * [Problem 50b Solutions](s/s51.md)
    * [Problem 52 Solutions](s/s52.md)
    * [Problem 53 Solutions](s/s53.md)
    * [Problem 54 Solutions](s/s54.md)
