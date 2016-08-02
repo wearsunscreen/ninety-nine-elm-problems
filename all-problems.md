@@ -1,2 +1,2 @@
 # All Problems
-All problems present in numerical order. 
+All problems presented in the same order as [Ninety-Nine Prolog Problems](http://www.ic.unicamp.br/~meidanis/courses/mc336/2009s2/prolog/problemas/). A few problems are omitted which don't apply to statically typed languages. A few Extras are added whose solutions are useful in solving later larger problems. 
