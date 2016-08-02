@@ -6,7 +6,7 @@ If you're interested in collaborating on the book place note on the discussion b
 ## Current status
 * Problem 9 solution can be improved 
 * Problems 23-27 need solutions. 
-* Problem 50-99 need solutions. 
+* Problem 50b, 54-99 need solutions. 
 
 ## Suggested improvements
 * Add functions to convert Strings to lists of character and vice versa, to make the problems more consistent with the Haskell, Lisp and Prolog predecessors.
