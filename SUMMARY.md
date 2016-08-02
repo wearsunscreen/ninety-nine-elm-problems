@@ -69,7 +69,7 @@
    * [Problem 48](p/p48.md)
    * [Problem 49](p/p49.md)
    * [Problem 50a](p/p50a.md)
-   * Problem 50b
+   * [Problem 50b](s/s50b.md)
    * [Problem 51](p/p51.md)
    * [Problem 52](p/p52.md)
    * [Problem 53](p/p53.md)
