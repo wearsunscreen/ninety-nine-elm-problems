@@ -232,7 +232,7 @@
    * [Problem 97 Solutions](s/s97.md)
    * [Problem 98 Solutions](s/s98.md)
    * [Problem 99 Solutions](s/s99.md)
-   * Problem 50b Solutions
+   * [Problem 50b Solutions](s/s50b.md)
 * [Notes](notes.md)
 * [Template](template.md)
 * [Utility Functions](utility_functions.md)
