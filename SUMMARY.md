@@ -164,7 +164,6 @@
    * [Problem 39 Solutions](s/s39.md)
    * [Problem 40 Solutions](s/s40.md)
    * [Problem 41 Solutions](s/s41.md)
-   * [Problem 45 Solutions](s/s45.md)
    * [Problem 46 Solutions](s/s46.md)
    * [Problem 47 Solutions](s/s47.md)
    * [Problem 48 Solutions](s/s48.md)
