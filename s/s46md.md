@@ -78,4 +78,4 @@ equivalent =
       (==)
 ```
 
-                    
+[Back to problem](../p/p46.md)             
