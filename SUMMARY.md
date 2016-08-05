@@ -60,7 +60,6 @@
    * [Problem 39](p/p39.md)
    * [Problem 40](p/p40.md)
    * [Problem 41](p/p41.md)
-   * [Problem 42](p/p42.md)
    * [Problem 43](p/p43.md)
    * [Problem 44](p/p44.md)
    * [Problem 45](p/p45.md)
