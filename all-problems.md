@@ -1,2 +1,2 @@
 # All Problems
-All problems presented in the same order as [Ninety-Nine Prolog Problems](http://www.ic.unicamp.br/~meidanis/courses/mc336/2009s2/prolog/problemas/). Problems which don't apply to statically typed languages are omitted. A few Extras whose solutions are useful in solving later larger problems are injected. 
+All problems presented in the same order as [Ninety-Nine Prolog Problems](http://www.ic.unicamp.br/~meidanis/courses/mc336/2009s2/prolog/problemas/). Problems which don't apply to statically typed languages are omitted. Extra problems whose solutions are useful in solving later larger problems are inserted. 
