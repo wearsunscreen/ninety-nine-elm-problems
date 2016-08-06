@@ -173,7 +173,7 @@
    * [Problem 61a Solutions](s/s61a.md)
    * [Problem 61b Solutions](s/s61b.md)
    * [Problem 62a Solutions](s/s62a.md)
-   * [Problem 6b2 Solutions](s/s62b.md)
+   * [Problem 62b Solutions](s/s62b.md)
    * [Problem 63 Solutions](s/s63.md)
    * [Problem 64 Solutions](s/s64.md)
    * [Problem 65 Solutions](s/s65.md)
