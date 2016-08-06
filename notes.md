@@ -7,7 +7,7 @@ If you're interested in collaborating on the book place note on the discussion b
 * Problem 9 solution can be improved 
 * Problems 23-27 need solutions. 
 * Problems 41, 48, 50b, 57-99 need solutions. 
-* Problem 55 can have a more efficient solution.
+* Problems 55, 57 can have a more efficient solution.
 * Problem 56 needs unit test and solution
 
 ## Suggested improvements
