@@ -171,7 +171,6 @@
    * [Problem 55 Solutions](s/s55.md)
    * [Problem 56 Solutions](s/s56.md)
    * [Problem 57 Solutions](s/s57.md)
-   * [Problem 58 Solutions](s/s58.md)
    * [Problem 59 Solutions](s/s59.md)
    * [Problem 60 Solutions](s/s60.md)
    * [Problem 61a Solutions](s/s61a.md)
