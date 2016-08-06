@@ -73,7 +73,7 @@
    * [Problem 61a](p/p61a.md)
    * [Problem 61b](p/p61b.md)
    * [Problem 62a](p/p62a.md)
-   * [Problem 6b2](p/p62b.md)
+   * [Problem 62b](p/p62b.md)
    * [Problem 63](p/p63.md)
    * [Problem 64](p/p64.md)
    * [Problem 65](p/p65.md)
