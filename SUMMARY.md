@@ -170,7 +170,6 @@
    * [Problem 55 Solutions](s/s55.md)
    * [Problem 56 Solutions](s/s56.md)
    * [Problem 57 Solutions](s/s57.md)
-   * [Problem 60 Solutions](s/s60.md)
    * [Problem 61a Solutions](s/s61a.md)
    * [Problem 61b Solutions](s/s61b.md)
    * [Problem 62a Solutions](s/s62a.md)
