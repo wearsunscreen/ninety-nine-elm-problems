@@ -10,6 +10,7 @@ If you're interested in collaborating on the book place note on the discussion b
 * Problems 55, 57 can have a more efficient solution.
 * Problem 56 needs unit test and solution
 * Omitted 58, 59, 60 for complexity and lack of value
+* Problem 61b, should change ```comparable``` to ```a``` by having a smarter test function.
 
 ## Suggested improvements
 * Add functions to convert Strings to lists of character and vice versa, to make the problems more consistent with the Haskell, Lisp and Prolog predecessors.
