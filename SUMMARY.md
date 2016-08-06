@@ -70,7 +70,6 @@
    * [Problem 55](p/p55.md)
    * [Problem 56](p/p56.md)
    * [Problem 57](p/p57.md)
-   * [Problem 58](p/p58.md)
    * [Problem 59](p/p59.md)
    * [Problem 60](p/p60.md)
    * [Problem 61a](p/p61a.md)
