@@ -12,6 +12,7 @@ If you're interested in collaborating on the book place note on the discussion b
 * Problem 61b, should change ```comparable``` to ```a``` by having a smarter test function.
 * Omitted 58, 59, 60 for complexity and lack of value
 * Problem 64 - Solution 2 is in Haskell only, needs to be translated to Elm. 
+* Problem 65 needs a solution
 
 ## Suggested improvements
 * Add extras for Binary Trees
