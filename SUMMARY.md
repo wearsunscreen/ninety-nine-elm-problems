@@ -176,6 +176,7 @@
    * [Problem 62b Solutions](s/s62b.md)
    * [Problem 63 Solutions](s/s63.md)
    * [Problem 64 Solutions](s/s64.md)
+   * Problem 65 Solutions
    * [Problem 67 Solutions](s/s67.md)
    * [Problem 68a Solutions](s/s68a.md)
    * [Problem 68b Solutions](s/s68b.md)
@@ -216,7 +217,6 @@
    * [Problem 97 Solutions](s/s97.md)
    * [Problem 98 Solutions](s/s98.md)
    * [Problem 99 Solutions](s/s99.md)
-   * Problem 65 Solutions
 * [Notes](notes.md)
 * [Template](template.md)
 * [Utility Functions](utility_functions.md)
