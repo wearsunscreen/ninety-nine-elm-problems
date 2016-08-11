@@ -176,7 +176,6 @@
    * [Problem 62b Solutions](s/s62b.md)
    * [Problem 63 Solutions](s/s63.md)
    * [Problem 64 Solutions](s/s64.md)
-   * [Problem 66 Solutions](s/s66.md)
    * [Problem 67 Solutions](s/s67.md)
    * [Problem 68a Solutions](s/s68a.md)
    * [Problem 68b Solutions](s/s68b.md)
