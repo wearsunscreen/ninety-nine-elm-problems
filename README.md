@@ -1,12 +1,12 @@
 # Ninety-nine Elm Problems
 ## Who is this book for?
 
-Elm is an easy to use pure functional programming language. These exercises give you a path to learn and practice functional idioms and train you to think about solving problem functionally. 
+Elm is an easy to use pure functional programming language. These exercises give you a path to learn and practice functional idioms and train you to think about solving problem functionally. The techniques demonstrated in this book apply to any functional programming languages. 
 
-Although this book uses Elm, the techniques apply to any functional programming languages. This book makes it easy to jump into programming. No installs required. You can code and test your solutions on Elm's online editor, [http://elm-lang.org/try](http://elm-lang.org/try). Unit tests are provided for all problems to give your solution a thorough test. Many problems have multiple solutions, demonstrating different approaches to solving each problem. 
+This book makes it easy to jump into programming, no installs required. You can code and test your solutions on Elm's online editor, [http://elm-lang.org/try](http://elm-lang.org/try). Every problem has a Unit Test to give your solution a thorough test. Many problems have multiple solutions, demonstrating different approaches to solving each problem. 
 
 ## Who *isn't* this book for?
-Elm is an easy to use web development language. These problems do not cover web specific topics. If you are very comfortable with functional programming and are looking to learn how to use Elm to develop web apps and web pages, then this book is NOT for you.  
+Elm is an easy to use web development language. The problems posed in this book do not cover web specific topics. If you are very comfortable with functional programming and are looking to learn how to use Elm to develop web apps and web pages, then this book is NOT for you.  
 
 ## Where to begin
 If you're new to functional programming, start with the [Learning Track](learning_track.md). This will introduce you to the basic techniques of functional programming in a progression to help you learn through practice. If you just want to jump into the problems, start at [The Problems](the_problems.md). 
