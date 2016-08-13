@@ -29,10 +29,10 @@ type Tree a
     | Node a (Tree a) (Tree a)
 
 
-toTree : Tree a -> String
+toTree : String -> Tree Char
 toTree tree =
     -- your implementation goes here
-    ""
+    Empty
 
 main =
     Html.text
@@ -49,14 +49,9 @@ test =
       [ toTree "" == Empty
       , toTree s1 == t1 
       , toTree s2 == t2 
-      , toTree s3 == t3 
-      , treeToString (Node 'z' Empty tChar) == "z(,x(y,a(,b)))" 
-      , treeToString (Node 'z' tChar Empty) == "z(x(y,a(,b)),)" 
-      , treeToString tString == "x(y,a(,b))" 
-      , treeToString tInt == "8(9,1(,2))"
-      , treeToString (Node 3 (Node 4 tInt Empty) Empty) 
-          == "3(4(8(9,1(,2)),),)"
+      , toTree s3 == t3
       ]
+
 
 s1 = "a(b(d,e),c(,f(g,)))"
 t1 = 
@@ -70,6 +65,7 @@ t1 =
                 (Node 'g' Empty Empty) 
                 Empty))
                 
+
 s2 = "x(y,a(,b))"
 t2 = 
     Node 'x' 
@@ -87,6 +83,8 @@ t4 =
     (Node '1' 
         Empty 
         (Node '2' Empty Empty))
+
+
 ```
 
 ##Hints
