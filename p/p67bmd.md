@@ -1,10 +1,10 @@
 # Problem 67b
 
-Consider a string representation of a tree such as:
+Consider a string representation of a tree with a single character naming each node such as:
 
 ```a(b(d,e),c(,f(g,)))```
 
-Write a function to generate a tree from its string representation created in [Problem 67a](p67a.md).
+Write a function to generate a tree from its string representation created in [Problem 67a](p67a.md). Each no
 
 ##Example
 ```elm
