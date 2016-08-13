@@ -4,7 +4,7 @@ Consider a string representation of a tree with a single character naming each n
 
 ```a(b(d,e),c(,f(g,)))```
 
-Write a function to generate a tree from its string representation created in [Problem 67a](p67a.md). Each no
+Write a function to generate a tree from its string representation created in [Problem 67a](p67a.md). 
 
 ##Example
 ```elm
