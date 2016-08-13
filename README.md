@@ -17,7 +17,7 @@ These problems are adaptations for Elm from [Ninety-Nine Haskell Problems](https
 
 ## How you can help
 * **Add solutions**. Problems 70-99 still need solutions and each problem can have more solutions. 
-* Adding a second, third, or fourth solution that is instructive or illustrates a different approach can add to the reader's learning. 
+* Add a second, third, or fourth solution that is instructive or illustrates a different approach can add to the reader's learning. 
 * Check, correct and clarify problem statements.
 * Check formatting. This book follows the standard Elm style and idioms. Please use [elm-format](https://github.com/avh4/elm-format) to format code examples.
 * Invite other Elm programmers to review and add to this book. 
