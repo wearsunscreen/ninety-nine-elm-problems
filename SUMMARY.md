@@ -79,6 +79,7 @@
    * [Problem 65](p/p65.md)
    * [Problem 66](p/p66.md)
    * [Problem 67a](p/p67.md)
+   * Problem 67b
    * [Problem 68a](p/p68a.md)
    * [Problem 68b](p/p68b.md)
    * [Problem 69](p/p69.md)
@@ -118,7 +119,6 @@
    * [Problem 97](p/p97.md)
    * [Problem 98](p/p98.md)
    * [Problem 99](p/p99.md)
-   * Problem 67b
 * [All Solutions](the_solutions.md)
    * [Problem 1 Solutions](s/s01.md)
    * [Problem 2 Solutions](s/s02.md)
