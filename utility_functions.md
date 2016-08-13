@@ -54,3 +54,14 @@ eratos candidates primes =
            in
                eratos cs (x :: primes)
 ```
+
+####infix operator for Maybe.withDefault 
+####(?) : Maybe a -> a -> a
+
+```elm
+(?) : Maybe a -> a -> a
+(?) maybe default =
+  Maybe.withDefault default maybe
+
+infixr 9 ?
+```
