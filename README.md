@@ -9,14 +9,14 @@ This book makes it easy to jump into programming, no installs required. You can 
 Elm is an easy to use web development language. The problems posed in this book do not cover web specific topics. If you are comfortable with functional programming and are looking to learn how to use Elm to develop web apps and web pages, then this book is NOT for you.  
 
 ## Where to begin
-If you're new to functional programming, start with the [Learning Track](learning_track.md). This will introduce you to the basic techniques of functional programming in a progression to help you learn through practice. If you just want to jump into the problems, start at [All Problems](the_problems.md). 
+If you're new to functional programming, start with the [Learning Track](learning_track.md). This will introduce you to the basic techniques of functional programming in a progression to help you learn through practice. If you just want to jump into the problems, start at [Problems by Category](the_problems.md). 
 
 ## History of the Ninety-nine Problems 
 
-These problems are adaptations for Elm from [Ninety-Nine Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems), which themselves are adaptations of [Ninety-Nine Lisp Problems](http://www.ic.unicamp.br/~meidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html), which are adaptations of [Ninety-Nine Prolog Problems](https://sites.google.com/site/prologsite/prolog-problems) collected by Werner Hett. The title is more figurative than literal. There aren't 99 problems in the original Prolog version and a few original Prolog problems don't apply to Elm. The numbering of the problems is consistent with the other collections to ease comparisons. Other adaptations include [Scala](http://aperiodic.net/phil/scala/s-99/), [OCaml](https://ocaml.org/learn/tutorials/99problems.html). 
+These problems are adaptations for Elm from [Ninety-Nine Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems), which are adaptations of [Ninety-Nine Prolog Problems](https://sites.google.com/site/prologsite/prolog-problems) collected by Werner Hett. The title is more figurative than literal. There aren't 99 problems in the original Prolog version and a few original Prolog problems don't apply to Elm. The numbering of the problems is consistent with the other collections to ease comparisons. Other adaptations include [Lisp](http://www.informatimago.com/develop/lisp/l99/), [Scala](http://aperiodic.net/phil/scala/s-99/), [OCaml](https://ocaml.org/learn/tutorials/99problems.html). 
 
 ## How you can help
-* **Add solutions**. Problems 41-99 still need solutions and each problem can have more solutions. 
+* **Add solutions**. Problems 70-99 still need solutions and each problem can have more solutions. 
 * Adding a second, third, or fourth solution that is instructive or illustrates a different approach can add to the reader's learning. 
 * Check, correct and clarify problem statements.
 * Check formatting. This book follows the standard Elm style and idioms. Please use [elm-format](https://github.com/avh4/elm-format) to format code examples.
