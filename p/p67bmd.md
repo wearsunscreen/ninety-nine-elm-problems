@@ -92,4 +92,4 @@ t4 =
 
 
 ##Solutions
-[Solutions](../s/s67a.md)
+[Solutions](../s/s67b.md)
