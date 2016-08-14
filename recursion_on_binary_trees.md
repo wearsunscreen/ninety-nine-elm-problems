@@ -11,8 +11,6 @@
 
 [Problem 68c](p/p68c.md) - Extract a list of nodesof a tree in post-order. 
 
-[Problem 56](p/p56.md) - Determine if a tree is symmetric.
-
 [Problem 57](p/p57.md) - Generate a binary tree from a list of integers.
 
 [Problem 58](p/p58.md) - Generate symmetric and balanced trees of a given number of nodes.
