@@ -7,6 +7,7 @@
    * [Recursion](lt/recursion.md)
    * [Recursion on Lists](lt/recursion_on_lists.md)
    * [Folding](folding.md)
+   * Recursion on Binary Trees
 * [Problems by Category](the_problems.md)
    * [Lists](lists.md)
    * [Lists and Tuples](lists-tuples-and-union-types.md)
