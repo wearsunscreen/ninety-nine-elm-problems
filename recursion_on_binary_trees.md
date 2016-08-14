@@ -23,14 +23,6 @@
 
 [Problem 63](p/p63.md) - Construct a complete binary tree.
 
-[Problem 64](p/p64.md) - Give coordinates to draw a binary tree, method 1.
-
-[Problem 65](p/p65.md) -  Give coordinates to draw a binary tree, method 2. 
-
-[Problem 66](p/p66.md) -  Give coordinates to draw a binary tree, method 3. 
-
-[Problem 67](p/p67.md) - Generate a string representation of a tree.
-
-[Problem 69](p/p69.md) - Generate height-balanced trees with a give number of nodes.
+[Problem 64](p/p64.md) - Give coordinates to draw a binary tree
 
 [Problem 70](p/p70.md) - Generate a dot-string representation of a tree. 
