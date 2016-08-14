@@ -13,12 +13,6 @@
 
 [Problem 57](p/p57.md) - Generate a binary tree from a list of integers.
 
-[Problem 58](p/p58.md) - Generate symmetric and balanced trees of a given number of nodes.
-
-[Problem 59](p/p59.md) - Generate height-balanced trees.
-
-[Problem 60](p/p60.md) -  Generate height-balanced trees with a give number of nodes. 
-
 [Problem 61a](p/p61a.md) - Count the leaves of a tree.
 
 [Problem 61b](p/p61b.md) - Collect the leaves of tree into a list.
