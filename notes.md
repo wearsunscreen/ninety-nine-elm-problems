@@ -14,6 +14,7 @@ If you're interested in collaborating on the book place note on the discussion b
 * Problem 64 - Solution 2 is in Haskell only, needs to be translated to Elm. 
 * Problem 65, 66 need a solution
 * Problem 67b needs a solution
+* Skipped Problem 69
 
 ## Suggested improvements
 * Add extras for Binary Trees
