@@ -1,6 +1,6 @@
 # Folding
 
-Also called reduce in some languages, a fold goes through elements of a list and returns a single value. Folds require a function pass to it, which will be applied to each element of the list. This function can be a named, or an anonymous function. Anonymous functions are also called lambda functions. Key to learning to use folds is thinking of what the function you will pass to fold takes as and argument, and what it should return. You can fold from left to right through a list, `List.foldl`, or from right to left, `List.foldr`. In general you should prefer `foldl `over `foldr `because it is more efficient.
+Also called reduce in some languages, a fold goes through elements of a list and returns a single value. Folds require a function passed to it, which will be applied to each element of the list. This function can be a named, or an anonymous function. Anonymous functions are also called lambda functions. Key to learning to use folds is thinking of what the function you will pass to fold takes as and argument, and what it should return. You can fold from left to right through a list, `List.foldl`, or from right to left, `List.foldr`. In general you should prefer `foldl `over `foldr `because it is more efficient.
 
 ### Problem 1 - Return last element of a list
 Solve [Problem 1](../p/p01.md) by writing a version of `last` that uses `List.foldl`. Remember that the function passed to `foldl` will be called on the last element last. 
@@ -43,6 +43,5 @@ Elm's List package provides some specialized folds. `List.sum` is really a fold 
 `sum -> List Int -> Int
 sum xs = List.foldl (+) 0 xs
 `
-
 Use `List.map` and `List.sum` to implement `countElements`.
 
