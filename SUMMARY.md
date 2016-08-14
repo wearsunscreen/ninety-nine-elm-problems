@@ -5,8 +5,8 @@
    * [Simple List Functions](lt/simple_list_functions.md)
    * [Maybe, Just, Nothing](lt/maybe,_just,_nothing.md)
    * [Recursion](lt/recursion.md)
-   * Recursion on Binary Trees
    * [Recursion on Lists](lt/recursion_on_lists.md)
+   * Recursion on Binary Trees
    * [Folding](folding.md)
 * [Problems by Category](the_problems.md)
    * [Lists](lists.md)
