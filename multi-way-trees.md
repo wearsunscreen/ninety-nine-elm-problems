@@ -2,9 +2,7 @@
 
 ## Problems
 
-[Problem 70a](p/p70a.md) - Construct a multiway tree from a list of values. 
-
-[Problem 70b](p/p70b.md) - Count the nodes of a multiway tree.
+[Problem 70](p/p70a.md) - Define a multiway tree data type and count the nodes of a multiway tree.
 
 [Problem 71](p/p71.md) - Calculate the internal path length of a multiway tree.
 
