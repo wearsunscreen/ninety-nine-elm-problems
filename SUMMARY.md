@@ -85,7 +85,7 @@
    * [Problem 68b](p/p68b.md)
    * [Problem 68c](p/p68c.md)
    * [Problem 69](p/p69.md)
-   * [Problem 70](p/p70.md)
+   * [Problem 70a](p/p70.md)
    * [Problem 70b](p/p70b.md)
    * [Problem 71](p/p71.md)
    * [Problem 72](p/p72.md)
