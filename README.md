@@ -1,7 +1,7 @@
 # Ninety-nine Elm Problems
 ## Who is this book for?
 
-Elm is an easy to use pure functional programming language. These exercises give you a path to learn and practice functional idioms and train you to think about solving problem functionally. The techniques demonstrated in this book apply to all functional programming languages. 
+Elm is an easy to use pure functional programming language. These exercises give you a path to learn and practice functional idioms and train yourself to think about solving problems functionally. The techniques demonstrated in this book can be used with any functional programming language. 
 
 This book makes it easy to jump into programming, no installs required. You can code and test your solutions on Elm's online editor, [http://elm-lang.org/try](http://elm-lang.org/try). Every problem has a unit test, a full program, to give your solution a thorough test. Many problems have multiple solutions, demonstrating different approaches to solving a problem. 
 
