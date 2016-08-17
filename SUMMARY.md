@@ -180,7 +180,7 @@
    * [Problem 68b Solutions](s/s68b.md)
    * [Problem 68c Solutions](../s/s68c.md)
    * [Problem 69 Solutions](s/s69.md)
-   * [Problem 70 Solutions](s/s70.md)
+   * [Problem 70a Solutions](s/s70.md)
    * [Problem 71 Solutions](s/s71.md)
    * [Problem 72 Solutions](s/s72.md)
    * [Problem 73 Solutions](s/s73.md)
