@@ -115,6 +115,7 @@
    * [Problem 97](p/p97.md)
    * [Problem 98](p/p98.md)
    * [Problem 99](p/p99.md)
+   * Problem 70b
 * [All Solutions](the_solutions.md)
    * [Problem 1 Solutions](s/s01.md)
    * [Problem 2 Solutions](s/s02.md)
