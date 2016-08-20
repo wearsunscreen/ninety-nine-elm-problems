@@ -182,6 +182,7 @@
    * [Problem 69 Solutions](s/s69.md)
    * [Problem 70a Solutions](s/s70.md)
    * [Problem 70b Solutions](s/s70b.md)
+   * Problem 70b Solutions
    * [Problem 71 Solutions](s/s71.md)
    * [Problem 72 Solutions](s/s72.md)
    * [Problem 73 Solutions](s/s73.md)
@@ -217,7 +218,6 @@
    * [Problem 97 Solutions](s/s97.md)
    * [Problem 98 Solutions](s/s98.md)
    * [Problem 99 Solutions](s/s99.md)
-   * Problem 70b Solutions
 * [Notes](notes.md)
 * [Template](template.md)
 * [Utility Functions](utility_functions.md)
