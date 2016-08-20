@@ -182,7 +182,6 @@
    * [Problem 69 Solutions](s/s69.md)
    * [Problem 70a Solutions](s/s70.md)
    * [Problem 70b Solutions](s/s70b.md)
-   * Problem 70b Solutions
    * [Problem 71 Solutions](s/s71.md)
    * [Problem 72 Solutions](s/s72.md)
    * [Problem 73 Solutions](s/s73.md)
