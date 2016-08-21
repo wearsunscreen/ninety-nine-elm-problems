@@ -36,5 +36,4 @@ is different from a
 
 [Problem 21](p/p21.md) - Insert an element at a specified index.
 
-[Problem 22](p/p22.md) - Create a list of integers in a specified range
-.
+[Problem 22](p/p22.md) - Create a list of integers in a specified range.
