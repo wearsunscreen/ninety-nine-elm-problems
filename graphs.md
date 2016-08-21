@@ -10,7 +10,7 @@ There are several ways to represent graphs. One method is to represent each edge
 
 ## Edge-clause form
 ```elm
-type Edge a = (a, a)
+type alias Edge comparable = (comparable, comparable)
 
 edges80 = [ ('b','c'), ('b','f'), ('c','f'), ('f','k'), ('g','h')]
 ```
@@ -25,11 +25,17 @@ To represent the whole graph we can use as a pair of sets (nodes and edges).
 
 
 ```elm
-type Graph a = (List a, List (Edge a))
+type alias Graph comparable = (List comparable, List (Edge comparable))
+
 graph80 = ( [ 'b', 'c', 'd', 'f', 'g', 'h', 'k' ],
   [ ('b','c'), ('b','f'), ('c','f'), ('f','k'), ('g','h') ] )
 ```
 We call this the graph-term form. It will be our default representation in these problems. Note that the lists should be kept sorted and should not include duplicated elements. Each edge appears only once in the edge list; i.e. an edge ```('x','y')``` represents one edge between x and y. The term ```('y','x')``` is not shown. 
+
+| Elm Leaf |
+| -- |
+| *Because these forms require nodes and edges to be sorted and/or have duplicated remove the nodes must be of type ```comparable```. This limits us to ```number```, ```Char```, ```String```, lists of comparables or tuples of comparables.* |
+
 
 ---
 
@@ -37,7 +43,7 @@ We call this the graph-term form. It will be our default representation in these
 A third representation method is to associate with each node the set of nodes that are adjacent to that node. We call this the adjacency-list form. In our example:
 
 ```elm
-type AdjList a = List((a, List a))
+type alias AdjList comparable = List((comparable, List comparable))
 adjList80 = 
 [ ('b',['c','f']), 
   ('c',['b','f']), 
@@ -67,7 +73,7 @@ When the edges are directed we call them arcs. These are represented by ordered 
 
 
 ```elm
-type Arc a = (a,a)
+type alias Arc comparable = (comparable, comparable)
 
 arcs80 =  [ ('s','r')
           , ('s','u')
@@ -75,11 +81,12 @@ arcs80 =  [ ('s','r')
           , ('u','s')
           , ('v','u')]
 
-type Digraph a = (List a, List (Arc a))
+type Digraph comparable = (List comparable, List (Arc comparable))
+
+type DirAdjList comparable = List((comparable, List comparable))
 
 digraph80 = ( [ 'r', 's', 't', 'u', 'v'], arcs80 )
 
-type DirAdjList a = List((a, List a))
 dirAdjList80 =  [ (r,[])
                 , (s,[r,u])
                 , (t,[])
@@ -98,7 +105,7 @@ Finally, graphs and digraphs may have additional information attached to nodes a
 ![](../i/graph3.gif)
 
 ```elm
-type Arc a = (a, a, Int)
+type alias Arc comparable = (comparable, comparable, Int)
 labeledArcs80 = 
     [ ('m', 'q', 7)
     , ('p', 'q', 9)
@@ -107,7 +114,7 @@ labeledArcs80 =
 
 lDigraph80(['k', 'm', 'p', 'q'], labeledArcs80)
 
-type LabeledDirAdjList a = List((a, List (a, Int)))
+type alias LabeledDirAdjList comparable = List((comparable, List (comparable, Int)))
 lDirAdjList80 = [ ('k', [])
                 , ('m', [ ('q',7) ])
                 , ('p', [ ('m',5), ('q',9) ])
@@ -116,12 +123,12 @@ lDirAdjList80 = [ ('k', [])
 
 lhr80 = "[p>q/9, m>q/7, k, p>m/5]"
 ```
-The notation for labeled graphs can also be used for so-called multi-graphs, where more than one edge (or arc) are allowed between two given nodes.
+
 ## Problems
 
-[Problem 80a](p/p80a.md) - Convert from a graph from graph-term to adjancency-list representation. 
+[Problem 80a](p/p80a.md) - Convert from a graph from graph-term to adjacency-list representation. 
 
-[Problem 80b](p/p80b.md) - Convert from a graph from adjancency-list to graph-term representation.
+[Problem 80b](p/p80b.md) - Convert from a graph from adjacency-list to graph-term representation.
 
 [Problem 80c](p/p80c.md) - Convert from a graph from graph-term to human-friendly representation.
 
@@ -129,9 +136,9 @@ The notation for labeled graphs can also be used for so-called multi-graphs, whe
 
 [Problem 80e](p/p80e.md) - Convert from a graph from graph-term to  human-friendly representation.
 
-[Problem 80f](p/p80f.md) - Convert from a graph from human-friendly to  adjancency-list  representation.
+[Problem 80f](p/p80f.md) - Convert from a graph from human-friendly to  adjacency-list  representation.
 
-[Problem 80g](p/p80g.md) - Convert from a graph from  adjancency-list to human-friendly representation.
+[Problem 80g](p/p80g.md) - Convert from a graph from  adjacency-list to human-friendly representation.
 
 [Problem 81](p/p81.md) - Find the path between two nodes.
 
@@ -147,9 +154,9 @@ The notation for labeled graphs can also be used for so-called multi-graphs, whe
 
 [Problem 86b](p/p86b.md) - Determine the degree of all nodes of a graph.
 
-[Problem 86c](p/p86c.md) - Use the Welch-Powel algorithm to paint the nodes of a graph such that adjacent nodes have different colors.
+[Problem 86c](p/p86c.md) - Use the Welch-Powell algorithm to paint the nodes of a graph such that adjacent nodes have different colors.
 
-[Problem 87](p/p87.md) - From a given node, generate the depth-first tranversal of a graph.
+[Problem 87](p/p87.md) - From a given node, generate the depth-first traversal of a graph.
 
 [Problem 88](p/p88.md) - Split a graph into its connected components.
 
