@@ -1,4 +1,4 @@
-# Combinations, Permutations, Randomness, Sorting
+# Combinations, Randomness, Sorting
 
 ## Problems
 
