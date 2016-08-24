@@ -11,7 +11,7 @@
 * [Problems by Category](the_problems.md)
    * [Lists](lists.md)
    * [Lists and Tuples](lists-tuples-and-union-types.md)
-   * [Combinations, Permutations, Randomness, Sorting](combinations-permutations-randomness.md)
+   * [Combinations, Randomness, Sorting](combinations-permutations-randomness.md)
    * [Arithmetic](arithmetic.md)
    * [Logic and Codes](logic-and-codes.md)
    * [Binary Trees](binary-trees.md)
