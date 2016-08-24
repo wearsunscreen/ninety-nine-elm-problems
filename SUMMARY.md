@@ -43,7 +43,6 @@
    * [Problem 22](p/p22.md)
    * [Problem 23](p/p23.md)
    * [Problem 24](p/p24.md)
-   * [Problem 25](p/p25.md)
    * [Problem 26](p/p26.md)
    * [Problem 27](p/p27.md)
    * [Problem 28a](p/p28a.md)
