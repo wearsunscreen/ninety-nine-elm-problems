@@ -4,7 +4,7 @@
 If you're interested in collaborating on the book place note on the discussion board or contact John at john.crane@gmail.com.
 
 ## Current status
-* Problems 23, 24, 27, 41, 48, 50b, 56 need solutions. 
+* Problems 24, 27, 41, 48, 50b, 56 need solutions. 
 * Problems 55, 57 can have a more efficient solution.
 * Problem 61b, should change ```comparable``` to ```a``` by having a smarter test function.
 * Omitted 58, 59, 60 for complexity and lack of value
