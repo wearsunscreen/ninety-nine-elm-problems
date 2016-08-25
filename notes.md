@@ -7,13 +7,15 @@ If you're interested in collaborating on the book place note on the discussion b
 * Problems 27, 48, 50b, 56 need solutions. 
 * Problems 55, 57 can have a more efficient solution.
 * Problem 61b, should change ```comparable``` to ```a``` by having a smarter test function.
-* Removed 25 because it is identical to 23
-* Omitted 58, 59, 60 for complexity and lack of value
 * Problem 64 - Solution 2 is in Haskell only, needs to be translated to Elm. 
 * Problem 65, 66 need a solution
 * Problem 67b needs a solution
 * In Problem 41 the two solutions don't agree. Why? Is either correct?
 * Skipped Problems 69, 70
+
+## Omitted problems
+* Omitted 58, 59, 60 for complexity and lack of value
+* Removed 25 because it is identical to 23
 
 ## Suggested additions
 * Add extras for Binary Trees
