@@ -4,7 +4,10 @@
 If you're interested in collaborating on the book place note on the discussion board or contact John at john.crane@gmail.com.
 
 ## Current status
-* Problems 27, 48, 50b, 56 need solutions. 
+* Problems 27 (disjoint sets) needs a solution. 
+* Problems 48 (Truth tables) need solution.
+* Problems 50b (Huffman decode) needs solution.
+* Problem 56 need solution. 
 * Problems 55, 57 can have a more efficient solution.
 * Problem 61b, should change ```comparable``` to ```a``` by having a smarter test function.
 * Problem 64 - Solution 2 is in Haskell only, needs to be translated to Elm. 
