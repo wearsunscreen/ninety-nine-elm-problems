@@ -4,7 +4,7 @@
 If you're interested in collaborating on the book place note on the discussion board or contact John at john.crane@gmail.com.
 
 ## Current status
-* Problems 27, 41, 48, 50b, 56 need solutions. 
+* Problems 27, 48, 50b, 56 need solutions. 
 * Problems 55, 57 can have a more efficient solution.
 * Problem 61b, should change ```comparable``` to ```a``` by having a smarter test function.
 * Removed 25 because it is identical to 23
@@ -12,6 +12,7 @@ If you're interested in collaborating on the book place note on the discussion b
 * Problem 64 - Solution 2 is in Haskell only, needs to be translated to Elm. 
 * Problem 65, 66 need a solution
 * Problem 67b needs a solution
+* In Problem 41 the two solutions don't agree. Why? Is either correct?
 * Skipped Problems 69, 70
 
 ## Suggested additions
