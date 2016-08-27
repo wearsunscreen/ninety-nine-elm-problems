@@ -8,15 +8,16 @@ If you're interested in collaborating on the book place note on the discussion b
 * Problems 48 (Truth tables) need solution.
 * Problem 56 (Symmetric binary tree) needs solution. 
 * Problem 61b, should change ```comparable``` to ```a``` by having a smarter test function.
-* Problem 64 - Solution 2 is in Haskell only, needs to be translated to Elm. 
-* Problem 65, 66 need a solution
+* Problem 64 (layout tree in grid)- Solution 2 is in Haskell only, needs to be translated to Elm. 
+* Problem 65 (layout tree in grid) needs a solution
 * Problem 67b needs a solution
 * In Problem 41 the two solutions don't agree. Why? Is either correct?
 * Skipped Problems 69, 70
 
 ## Omitted problems
 * Omitted 58, 59, 60 for complexity and lack of value
-* Removed 25 because it is identical to 23
+* Omitted Problem 66 for complexity and similarity to other problems
+* Omitted 25 because it is identical to 23
 
 ## Suggested additions
 * Add extras for Binary Trees
