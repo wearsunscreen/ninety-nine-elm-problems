@@ -6,8 +6,7 @@ If you're interested in collaborating on the book place note on the discussion b
 ## Current status
 * Problems 27 (disjoint sets) needs a solution. 
 * Problems 48 (Truth tables) need solution.
-* Problems 50b (Huffman decode) needs solution.
-* Problem 56 need solution. 
+* Problem 56 (Symmetric binary tree) needs solution. 
 * Problem 61b, should change ```comparable``` to ```a``` by having a smarter test function.
 * Problem 64 - Solution 2 is in Haskell only, needs to be translated to Elm. 
 * Problem 65, 66 need a solution
