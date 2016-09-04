@@ -101,6 +101,7 @@
    * [Problem 84](p/p84.md)
    * [Problem 85](p/p85.md)
    * [Problem 86](p/p86.md)
+   * Problem 86b
    * [Problem 87](p/p87.md)
    * [Problem 88](p/p88.md)
    * [Problem 89](p/p89.md)
@@ -114,7 +115,6 @@
    * [Problem 97](p/p97.md)
    * [Problem 98](p/p98.md)
    * [Problem 99](p/p99.md)
-   * Problem 86b
 * [All Solutions](the_solutions.md)
    * [Problem 1 Solutions](s/s01.md)
    * [Problem 2 Solutions](s/s02.md)
