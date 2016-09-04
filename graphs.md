@@ -150,11 +150,9 @@ lhr80 = "[p>q/9, m>q/7, k, p>m/5]"
 
 [Problem 85](p/p85.md) - Determine if two graphs are isomorphic.
 
-[Problem 86a](p/p86a.md) - Determine the degree of a node.
+[Problem 86a](p/p86a.md) - Determine the degree of all nodes of a graph.
 
-[Problem 86b](p/p86b.md) - Determine the degree of all nodes of a graph.
-
-[Problem 86c](p/p86c.md) - Use the Welch-Powell algorithm to paint the nodes of a graph such that adjacent nodes have different colors.
+[Problem 86b](p/p86b.md) - Use the Welch-Powell algorithm to paint the nodes of a graph such that adjacent nodes have different colors.
 
 [Problem 87](p/p87.md) - From a given node, generate the depth-first traversal of a graph.
 
