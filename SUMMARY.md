@@ -200,7 +200,7 @@
    * [Problem 83 Solutions](s/s83.md)
    * [Problem 84 Solutions](s/s84.md)
    * [Problem 85 Solutions](s/s85.md)
-   * [Problem 86a Solution](s/s86.md)
+   * [Problem 86a Solution](s/s86a.md)
    * [Problem 87 Solutions](s/s87.md)
    * [Problem 88 Solutions](s/s88.md)
    * [Problem 89 Solutions](s/s89.md)
