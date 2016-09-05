@@ -204,7 +204,6 @@
    * [Problem 86b Solution](s/s86b.md)
    * [Problem 87 Solutions](s/s87.md)
    * [Problem 88 Solutions](s/s88.md)
-   * [Problem 89 Solutions](s/s89.md)
    * [Problem 90 Solutions](s/s90.md)
    * [Problem 91 Solutions](s/s91.md)
    * [Problem 92 Solutions](s/s92.md)
