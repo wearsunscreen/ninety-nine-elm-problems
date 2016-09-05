@@ -14,6 +14,7 @@ If you're interested in collaborating on the book place note on the discussion b
 * In Problem 41 the two solutions don't agree. Why? Is either correct?
 * Skipped Problems 69, 70
 * Problem 84, 86 should remove loops and parallel edges
+* Graph problems 87, 88, 82 
 
 ## Omitted problems
 * Omitted 58, 59, 60, 89 for complexity and lack of value
