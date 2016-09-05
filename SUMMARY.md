@@ -104,7 +104,6 @@
    * [Problem 86b](p/p86b.md)
    * [Problem 87](p/p87.md)
    * [Problem 88](p/p88.md)
-   * [Problem 89](p/p89.md)
    * [Problem 90](p/p90.md)
    * [Problem 91](p/p91.md)
    * [Problem 92](p/p92.md)
