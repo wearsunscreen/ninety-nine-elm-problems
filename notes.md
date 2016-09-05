@@ -19,7 +19,10 @@ If you're interested in collaborating on the book place note on the discussion b
 * Problem 84, 86 should remove loops and parallel edges
 * P5 - write a recursive version
  rev = rev xs ++ [x]
-* p14 - duplicate that uses fold
+* p14 - duplicate, more solutions 
+* * solution that uses fold
+* * [x,x] ++ (duplicate xs)
+* * solution using concatMap
 
 ## Omitted problems
 * Omitted 58, 59, 60, 89 for complexity and lack of value
@@ -32,3 +35,4 @@ If you're interested in collaborating on the book place note on the discussion b
 * * review simple problems to see if alternate solutions can use any of the other patterns.
 * Search solutions to categorize for leaning track
 * Review category pages
+* Add concatMap to learning page
