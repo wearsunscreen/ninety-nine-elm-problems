@@ -215,6 +215,5 @@
    * [Problem 98 Solutions](s/s98.md)
    * [Problem 99 Solutions](s/s99.md)
 * [Notes](notes.md)
-* [Template](template.md)
 * [Utility Functions](utility_functions.md)
 
