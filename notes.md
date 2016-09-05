@@ -13,19 +13,19 @@ If you're interested in collaborating on the book place note on the discussion b
 * Problem 67b needs a solution
 * In Problem 41 the two solutions don't agree. Why? Is either correct?
 * Skipped Problems 69, 70
+* Problem 84, 86 should remove loops and parallel edges
 
 ## Omitted problems
-* Omitted 58, 59, 60 for complexity and lack of value
+* Omitted 58, 59, 60, 89 for complexity and lack of value
 * Omitted Problem 66 for complexity and similarity to other problems
 * Omitted 25 because it is identical to 23
 
 ## Suggested additions
-* Add extras for Binary Trees
- * Search binary tree
-* Add Glossary
+* elm-format code
+* * Five implementations of List.length
 * add to first page of sections, as done in Graphs, for example
-Other stuff to do
-P18 - can sublist be simplified to not use max, min, length?
-P5 - write a recursive version
+* P18 - can sublist be simplified to not use max, min, length?
+* P5 - write a recursive version
  rev = rev xs ++ [x]
-p14 - duplicate that uses fold
+* p14 - duplicate that uses fold
+* 
