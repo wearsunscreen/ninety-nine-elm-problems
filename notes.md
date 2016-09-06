@@ -19,7 +19,6 @@ If you're interested in collaborating on the book place note on the discussion b
 * Problem 84, 86 should remove loops and parallel edges
 * P5 - write a recursive version
  rev = rev xs ++ [x]
-* p14 - duplicate, more solutions 
 * * solution that uses fold
 * * [x,x] ++ (duplicate xs)
 * * solution using concatMap
