@@ -17,11 +17,6 @@ If you're interested in collaborating on the book place note on the discussion b
 * Problem 64 (layout tree in grid)- Solution 2 is in Haskell only, needs to be translated to Elm. 
 * In Problem 41 the two solutions don't agree. Why? Is either correct?
 * Problem 84, 86 should remove loops and parallel edges
-* P5 - write a recursive version
- rev = rev xs ++ [x]
-* * solution that uses fold
-* * [x,x] ++ (duplicate xs)
-* * solution using concatMap
 
 ## Omitted problems
 * Omitted 58, 59, 60, 89 for complexity and lack of value
