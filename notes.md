@@ -4,9 +4,9 @@
 If you're interested in collaborating on the book place note on the discussion board or contact John at john.crane@gmail.com.
 
 ## Problems still to be done
-* Find cyclic paths in graph - 82
 * Depth first traversal of tree - 87
 * Find connected graphs - 88 
+* Find cyclic paths in graph - 82
 * Problem 56 (Symmetric binary tree) needs solution. 
 * Problems 27 (disjoint sets) needs a solution. 
 * Problems 48 (Truth tables) need solution.
