@@ -28,5 +28,6 @@ If you're interested in collaborating on the book place note on the discussion b
 * Five implementations of List.length
 * * review simple problems to see if alternate solutions can use any of the other patterns.
 * Search solutions to categorize for leaning track
+* * Add concatMap to learning track
 * Review category pages
-* Add concatMap to learning page
+* Add a *Lost Problems* page
