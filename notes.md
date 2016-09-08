@@ -1,16 +1,11 @@
 # Notes 
 
-## Collaborators
-If you're interested in collaborating on the book place note on the discussion board or contact John at john.crane@gmail.com.
-
 ## Problems still to be done
-* Depth first traversal of tree - 87
+* Depth first traversal of graph - 87
 * Find connected graphs - 88 
 * Find cyclic paths in graph - 82
-* Problem 56 (Symmetric binary tree) needs solution. 
 * Problems 27 (disjoint sets) needs a solution. 
 * Problems 48 (Truth tables) need solution.
-* Problem 65 (layout tree in grid) needs a solution
 * Problem 67b (de-lispify tree) needs a solution
 
 ## Improvement to solutions
@@ -22,6 +17,7 @@ If you're interested in collaborating on the book place note on the discussion b
 * Omitted 58, 59, 60, 89 for complexity and lack of value
 * Omitted Problem 66 for complexity and similarity 64 and 65
 * Omitted 25 because it is identical to 23
+* Puzzle problems (90-99) do not have solutions
 
 ## Other improvements
 * elm-format code
