@@ -212,7 +212,6 @@
    * [Problem 96 Solutions](s/s96.md)
    * [Problem 97 Solutions](s/s97.md)
    * [Problem 98 Solutions](s/s98.md)
-   * [Problem 99 Solutions](s/s99.md)
 * [Notes](notes.md)
 * [Utility Functions](utility_functions.md)
 
