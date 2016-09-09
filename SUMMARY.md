@@ -138,7 +138,7 @@
    * [Problem 20 Solutions](s/s20.md)
    * [Problem 21 Solutions](s/s21.md)
    * [Problem 22 Solutions](s/s22.md)
-   * Problem 24 Solution
+   * [Problem 24 Solution](s/s24.md)
    * [Problem 23 Solutions](s/s23.md)
    * [Problem 24 Solutions](s/s24.md)
    * [Problem 26 Solutions](s/s26.md)
