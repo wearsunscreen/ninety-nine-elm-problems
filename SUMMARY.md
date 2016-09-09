@@ -206,6 +206,7 @@
    * [Problem 87a Solution](s/s87.md)
    * [Problem 87b Solution](s/s87b.md)
    * [Problem 88 Solutions](s/s88.md)
+   * Problem 24 Solution
 * [Notes](notes.md)
 * [Utility Functions](utility_functions.md)
 
