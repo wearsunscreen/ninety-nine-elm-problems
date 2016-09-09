@@ -154,6 +154,8 @@ lhr80 = "[p>q/9, m>q/7, k, p>m/5]"
 
 [Problem 86b](p/p86b.md) - Use the Welch-Powell algorithm to color the nodes of a graph such that adjacent nodes have different colors.
 
-[Problem 87](p/p87.md) - From a given node, generate the depth-first traversal of a graph.
+[Problem 87a](p/p87.md) - From a given node, generate the depth-first traversal of a graph.
+
+[Problem 87b](p/p87b.md) - From a given node, generate the breadth-first traversal of a graph.
 
 [Problem 88](p/p88.md) - Split a graph into its connected components.
