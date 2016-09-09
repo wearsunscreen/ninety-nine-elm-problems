@@ -203,7 +203,7 @@
    * [Problem 86a Solution](s/s86a.md)
    * [Problem 86b Solution](s/s86b.md)
    * [Problem 87a Solutions](s/s87.md)
-   * Problem 87b Solution
+   * [Problem 87b Solution](../s/s87b.md)
    * [Problem 88 Solutions](s/s88.md)
 * [Notes](notes.md)
 * [Utility Functions](utility_functions.md)
