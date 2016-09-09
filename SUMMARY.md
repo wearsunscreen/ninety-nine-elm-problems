@@ -102,7 +102,7 @@
    * [Problem 85](p/p85.md)
    * [Problem 86a](p/p86.md)
    * [Problem 86b](p/p86b.md)
-   * [Problem 87](p/p87.md)
+   * [Problem 87a](p/p87.md)
    * [Problem 87b](p/p87b.md)
    * [Problem 88](p/p88.md)
    * [Problem 90](p/p90.md)
