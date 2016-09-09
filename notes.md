@@ -1,7 +1,7 @@
 # Notes 
 
 ## Problems still to be done
-* fix Depth first traversal of graph - 87
+* Fix Depth first traversal of graph - 87
 * Find connected graphs - 88 
 * Find cyclic paths in graph - 82
 * Problems 27 (disjoint sets) needs a solution. 
