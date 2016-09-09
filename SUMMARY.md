@@ -138,6 +138,7 @@
    * [Problem 20 Solutions](s/s20.md)
    * [Problem 21 Solutions](s/s21.md)
    * [Problem 22 Solutions](s/s22.md)
+   * Problem 24 Solution
    * [Problem 23 Solutions](s/s23.md)
    * [Problem 24 Solutions](s/s24.md)
    * [Problem 26 Solutions](s/s26.md)
@@ -206,7 +207,6 @@
    * [Problem 87a Solution](s/s87.md)
    * [Problem 87b Solution](s/s87b.md)
    * [Problem 88 Solutions](s/s88.md)
-   * Problem 24 Solution
 * [Notes](notes.md)
 * [Utility Functions](utility_functions.md)
 
