@@ -203,7 +203,7 @@
    * [Problem 85 Solutions](s/s85.md)
    * [Problem 86a Solution](s/s86a.md)
    * [Problem 86b Solution](s/s86b.md)
-   * [Problem 87a Solutions](s/s87.md)
+   * [Problem 87a Solution](s/s87.md)
    * [Problem 87b Solution](s/s87b.md)
    * [Problem 88 Solutions](s/s88.md)
 * [Notes](notes.md)
