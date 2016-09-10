@@ -8,7 +8,7 @@
 
 ## Improvement to solutions
 * In Problem 41 the two solutions don't agree. Why? Is either correct?
-* Problem 84, 86 should remove loops and parallel edges
+* Problem 86 should remove loops and parallel edges
 
 ## Omitted problems
 * Omitted 58, 59, 60, 89 for complexity and lack of value
