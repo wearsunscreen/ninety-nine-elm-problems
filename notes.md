@@ -7,7 +7,6 @@
 * Problem 67b (de-lispify tree) needs a solution
 
 ## Improvement to solutions
-* Problem 64 (layout tree in grid)- Solution 2 is in Haskell only, needs to be translated to Elm. 
 * In Problem 41 the two solutions don't agree. Why? Is either correct?
 * Problem 84, 86 should remove loops and parallel edges
 
