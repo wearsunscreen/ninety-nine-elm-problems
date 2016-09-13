@@ -14,9 +14,9 @@ Note the Learning Track does not include all of the 99 problem, and sometimes re
 
 Each section will have links to problems in order from simple to complex. This will often not be in numerical order. A link is provided to each problem page which has:
 
-1. Problem statement: Describes problem, and ask you to implement a solution.
-2. Example: Presents a example of the function with input and the correct result.
-3. Unit Test: A complete program that executes multiple tests of problem solution. You can use this program on the Elm online editor, [http:\/\/elm-lang.org\/try](http://elm-lang.org/try). The stubbed-out function you need to implement will be at the top, just below the imports.
+1. The problem statement: Describes problem, and ask you to implement a solution.
+2. An example: Presents a example of the function with input and the correct result.
+3. A unit test: A complete program that executes multiple tests of problem solution. You can use this program on the Elm online editor, [http:\/\/elm-lang.org\/try](http://elm-lang.org/try). The stubbed-out function you need to implement will be at the top, just below the imports.
 4. Hints: Suggests one or more ways to implement a solution.
 5. Solutions: Links to a page with one or more solutions.
 
@@ -24,7 +24,7 @@ Each section will have links to problems in order from simple to complex. This w
 
 Copy the unit test into the Elm online editor, [http:/elm-lang.org/try](http://elm-lang.org/try). Before checking the hints or the solutions page, attempt to solve the problem by yourself. Apply what you learned from the previous problems to solve the later problems. Then check the hints and see if that doesn't inspire other solutions or improvements to your own. Finally, check the solutions page to learn from those examples.
 
-If you prefer to install Elm, or you have, include the module statement at the top of the test program. 
+If you prefer to install Elm include the module statement at the top of the test program. 
 ```elm
 module Main exposing (..)
 ```
