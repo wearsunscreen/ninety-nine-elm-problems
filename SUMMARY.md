@@ -140,7 +140,6 @@
    * [Problem 22 Solutions](s/s22.md)
    * [Problem 24 Solution](s/s24.md)
    * [Problem 23 Solutions](s/s23.md)
-   * [Problem 24 Solutions](s/s24.md)
    * [Problem 26 Solutions](s/s26.md)
    * [Problem 27 Solutions](s/s27.md)
    * [Problem 28a Solutions](s/s28a.md)
@@ -208,5 +207,4 @@
    * [Problem 87b Solution](s/s87b.md)
    * [Problem 88 Solutions](s/s88.md)
 * [Notes](notes.md)
-* [Utility Functions](utility_functions.md)
 
