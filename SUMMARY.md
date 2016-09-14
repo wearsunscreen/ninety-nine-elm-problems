@@ -134,7 +134,7 @@
    * [Problem 16 Solutions](s/s16.md)
    * [Problem 17 Solutions](s/s17.md)
    * [Problem 18 Solutions](s/s18.md)
-   * [Problem 19 Solutions](s/s19.md)
+   * [Problem 19 Solution](s/s19.md)
    * [Problem 20 Solutions](s/s20.md)
    * [Problem 21 Solutions](s/s21.md)
    * [Problem 22 Solutions](s/s22.md)
