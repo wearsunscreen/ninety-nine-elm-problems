@@ -3,21 +3,7 @@
 
 
 
-####takeWhile : (a -> Bool) -> (List a) -> (List a)
 
-```
-takeWhile : (a -> Bool) -> (List a) -> (List a)
-takeWhile predicate xs =
-  case xs of
-    [] -> 
-        []
-        
-    hd::tl  -> 
-        if (predicate hd) then
-            hd :: takeWhile predicate tl
-        else 
-            []
-```            
 ####primes : Int -> List Int
 ```
 -- find all primes up to n
