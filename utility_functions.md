@@ -1,19 +1,7 @@
 *This page will go away in the final version*
 # Utility Functions
 
-#### dropWhile : (a -> Bool) -> List a -> List a
-```
-dropWhile : (a -> Bool) -> List a -> List a
-dropWhile predicate list =
-    case list of
-      []      -> []
-      
-      x::xs   -> 
-          if (predicate x) then 
-              dropWhile predicate xs
-          else 
-              list
-```
+
 
 ####takeWhile : (a -> Bool) -> (List a) -> (List a)
 
