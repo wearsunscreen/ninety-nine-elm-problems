@@ -142,7 +142,6 @@
    * [Problem 27 Solutions](s/s27.md)
    * [Problem 28a Solutions](s/s28a.md)
    * [Problem 28b Solutions](s/s28b.md)
-   * [Problem 29 Solutions](s/s29.md)
    * [Problem 30 Solutions](s/s30.md)
    * [Problem 31 Solutions](s/s31.md)
    * [Problem 32 Solutions](s/s32.md)
