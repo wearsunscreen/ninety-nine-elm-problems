@@ -1,6 +1,7 @@
 # Notes 
 
 ## Problems still to be done
+* 28b needs a solution using a dictionary
 * Find cyclic paths in graph - 82
 * Problems 48 (Truth tables) need solution.
 * Problem 67b (de-lispify tree) needs a solution
@@ -13,7 +14,7 @@
 * Omitted Problem 66 for complexity and similarity 64 and 65
 * Omitted 25 because it is identical to 23
 * Puzzle problems (90-99) do not have solutions
-* Omitted P27 - disjoint sets
+* Omitted 27 - disjoint sets
 
 ## Other improvements
 * elm-format code
