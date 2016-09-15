@@ -46,7 +46,6 @@
    * [Problem 26](p/p26.md)
    * [Problem 28a](p/p28a.md)
    * [Problem 28b](p/p28b.md)
-   * [Problem 30](p/p30.md)
    * [Problem 31](p/p31.md)
    * [Problem 32](p/p32.md)
    * [Problem 33](p/p33.md)
