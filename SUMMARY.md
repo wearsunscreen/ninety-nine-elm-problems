@@ -154,7 +154,6 @@
    * [Problem 41 Solutions](s/s41.md)
    * [Problem 46 Solutions](s/s46md.md)
    * [Problem 47 Solutions](s/s47.md)
-   * [Problem 48 Solutions](s/s48.md)
    * [Problem 49 Solutions](s/s49.md)
    * [Problem 50a Solutions](s/s50a.md)
    * [Problem 54 Solutions](s/s54.md)
