@@ -184,7 +184,6 @@
    * [Problem 79 Solutions](s/s79.md)
    * [Problem 80a Solutions](s/s80a.md)
    * [Problem 80b Solutions](s/s80b.md)
-   * [Problem 80c Solutions](s/s80c.md)
    * [Problem 80d Solutions](s/s80d.md)
    * [Problem 80e Solutions](s/s80e.md)
    * [Problem 80f Solutions](s/s80f.md)
