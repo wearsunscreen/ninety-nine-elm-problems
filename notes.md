@@ -3,9 +3,6 @@
 ## Problems still to be done
 * Find cyclic paths in graph - 82
 
-## Improvement to solutions
-* In Problem 41 the two solutions don't agree. Why? Is either correct?
-
 ## Omitted problems
 * Omitted 58, 59, 60, 89 for complexity and lack of value
 * Omitted Problem 66 for complexity and similarity 64 and 65
