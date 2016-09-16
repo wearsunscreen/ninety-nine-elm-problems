@@ -86,7 +86,6 @@
    * [Problem 73](p/p73.md)
    * [Problem 80a](p/p80a.md)
    * [Problem 80b](p/p80b.md)
-   * [Problem 80f](p/p80f.md)
    * [Problem 80g](p/p80g.md)
    * [Problem 81](p/p81.md)
    * [Problem 82](p/p82.md)
