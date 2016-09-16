@@ -59,7 +59,6 @@
    * [Problem 41](p/p41.md)
    * [Problem 46](p/p46.md)
    * [Problem 47](p/p47.md)
-   * [Problem 48](p/p48.md)
    * [Problem 49](p/p49.md)
    * [Problem 50a](p/p50a.md)
    * [Problem 50b](p/p50b.md)
