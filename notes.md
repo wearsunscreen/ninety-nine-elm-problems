@@ -1,10 +1,7 @@
 # Notes 
 
 ## Problems still to be done
-* 28b needs a solution using a dictionary
 * Find cyclic paths in graph - 82
-* Problems 48 (Truth tables) need solution.
-* Problem 67b (de-lispify tree) needs a solution
 
 ## Improvement to solutions
 * In Problem 41 the two solutions don't agree. Why? Is either correct?
@@ -15,6 +12,9 @@
 * Omitted 25 because it is identical to 23
 * Puzzle problems (90-99) do not have solutions
 * Omitted 27 - disjoint sets
+* Omitted 82, very similar to 87b
+* Omitted 48 - variably sized truth tables 
+* Omitted 67b - de-lispify tree
 
 ## Other improvements
 * elm-format code
