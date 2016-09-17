@@ -130,19 +130,7 @@ lhr80 = "[p>q/9, m>q/7, k, p>m/5]"
 
 [Problem 80b](p/p80b.md) - Convert from a graph from adjacency-list to graph-term representation.
 
-[Problem 80c](p/p80c.md) - Convert from a graph from graph-term to human-friendly representation.
-
-[Problem 80d](p/p80d.md) - Convert from a graph from  human-friendly to graph-term representation.
-
-[Problem 80e](p/p80e.md) - Convert from a graph from graph-term to  human-friendly representation.
-
-[Problem 80f](p/p80f.md) - Convert from a graph from human-friendly to  adjacency-list  representation.
-
-[Problem 80g](p/p80g.md) - Convert from a graph from  adjacency-list to human-friendly representation.
-
 [Problem 81](p/p81.md) - Find the path between two nodes.
-
-[Problem 82](p/p82.md) - Cycle from a given node.
 
 [Problem 83](p/p83.md) - Generate all spanning trees of a graph.
 
