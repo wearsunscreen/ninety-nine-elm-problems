@@ -178,7 +178,6 @@
    * [Problem 80a Solutions](s/s80a.md)
    * [Problem 80b Solutions](s/s80b.md)
    * [Problem 81 Solutions](s/s81.md)
-   * [Problem 83 Solutions](s/s83.md)
    * [Problem 84 Solutions](s/s84.md)
    * [Problem 85 Solutions](s/s85.md)
    * [Problem 86a Solution](s/s86a.md)
