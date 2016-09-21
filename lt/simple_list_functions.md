@@ -32,7 +32,7 @@ Solve [Problem 18](../p/p18.md) using  `List.take` and `List.drop`.
 dropAt : List a -> Int -> List a
 ```
 
-Solve [Problem 20](../p/p20.md) using  `List.take` and `List.drop` and the append operator \(++\) or `List.append`.
+Solve [Problem 20](../p/p20.md) using  `List.take` and `List.drop` and the append operator ```(++)``` or ```List.append```.
 
 ## Problem 19
 
@@ -40,7 +40,7 @@ Solve [Problem 20](../p/p20.md) using  `List.take` and `List.drop` and the appen
 rotate : List a -> Int -> List a
 ```
 
-Solve [Problem 19](../p/p19.md) using `List.take` and `List.drop` and the append operator `(++)` or `List.append`.
+Solve [Problem 19](../p/p19.md) using `List.take` and `List.drop` and the append operator ```(++)``` or ```List.append```.
 
 ## Problem 21
 
@@ -48,5 +48,5 @@ Solve [Problem 19](../p/p19.md) using `List.take` and `List.drop` and the append
 insertAt : List a -> Int -> a -> List a
 ```
 
-Solve [Problem 21](../p/p21.md)  using `List.take`, `List.drop`, append operator `(++)` and the "cons" operator `(::)`. You may want to use split from [Problem 17](../p/p17.md).
+Solve [Problem 21](../p/p21.md)  using `List.take`, `List.drop`, append operator ```(++)``` and the "cons" operator ```(::)```. You may want to use split from [Problem 17](../p/p17.md).
 
