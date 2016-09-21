@@ -6,5 +6,7 @@ In many programming languages functions are first-class. This means that a funct
 
 [Problem 28a](p/p28a.md) - Use ```List.sortBy``` to sort a list.
 
-[Problem 31](p/p31.md) - Use ```List.filter``` to implement the sieve of Eratosthenes.
+[Problem 31](p/p31.md) - Use ```List.filter``` to implement the Sieve of Eratosthenes.
+
+[Problem 34](p/p34.md) - Use ```List.filter``` to implement Euler's totient function.
 
