@@ -1,5 +1,7 @@
 # Recursion on Lists
 
+##Example 1
+
 Let's use [Problem 4](/../p/p04.md) as a simple example of recursing  through a list. 
 
 ```elm
@@ -15,6 +17,8 @@ countElements list =
 When recursing over a list's items you will often use the ```x :: xs``` cons construction to identify the head and the tail. You can use the head as a value then pass the tail to the same function. In this example we ignore the list item value, adding 1 for each element regardless of its value. 
 
 To avoid an infinite loop, there must be a case where the function is not called, bringing an end to the recusion stack. Frequently, as in this example, that is the empty list.
+
+##Example 2
 
 Frequently when recursing over a list, you will build up a new list to return as a result. [Problem 5](../p/p05.md "Problem 5") builds a new list in reverse order from it's input. 
 
