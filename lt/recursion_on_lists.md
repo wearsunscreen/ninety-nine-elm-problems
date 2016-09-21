@@ -35,3 +35,21 @@ myReverse list =
 
 [Problem 15](../p/p15.md "Problem 15") - Use recursion to repeat a specified number of times each item of a list using recursion and ```(::)``` and ```List.repeat```.
 
+[Extra 1](../p/e01.md) - [Pass a function](/passing_functions.md) to remove some elements from the front of a list.
+
+
+[Extra 2](../p/e02.md) - Pass a function to remove some elements from the back of a list.
+
+
+[Problem 8](../p/p08.md) - Use `List.take` and `List.drop` to take a portion of a list
+
+[Extra 1](../p/e01.md) - [Pass a function](/passing_functions.md) to remove some elements from the front of a list.
+
+[Extra 2](../p/e02.md) - Pass a function to remove some elements from the back of a list.
+
+[Problem 8](../p/p08.md) - Use `List.take` and `List.drop` to take a portion of a list
+
+
+
+
+
