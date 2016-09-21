@@ -2,52 +2,23 @@
 
 Let's learn some basic functions from the `List` module.
 
-## Problem 6
+## Problems to solve using simple List functions
 
-```elm
-isPalindrome' : List a -> Bool
-```
+[Problem 6](../p/p06.md) - Use ```List.reverse``` to test if a list is a palindrome. 
 
-Solve [Problem 6](../p/p06.md) using `List.reverse`.
+[Problem 17](../p/p17.md) - Use `List.take` and `List.drop` to split a list into two lists.
 
-## Problem 17
+[Problem 18](../p/p18.md) - Use `List.take` and `List.drop` to take a portion of a list
 
-```elm
-split : List a -> Int -> (List a, List a)
-```
+[Problem 20](../p/p20.md) - Use `List.take` and `List.drop` and the append operator ```(++)``` or ```List.append``` to remove an element from a list. 
 
-Solve [Problem 17](../p/p17.md) using `List.take` and `List.drop`.
+[Problem 19](../p/p19.md) - Use `List.take` and `List.drop` and the append operator ```(++)``` or ```List.append``` to rotate the elements of a list. 
 
-## Problem 18
+[Problem 21](../p/p21.md)  Use `List.take`, `List.drop`, append operator ```(++)``` and the "cons" operator ```(::)``` to get a specified element from a list. You may want to use split from [Problem 17](../p/p17.md).
 
-```elm
-sublist : List a -> Int -> Int-> List a
-```
+[Extra 1](../p/e01.md) - [Pass a function](/passing_functions.md) to remove some elements from the front of a list. 
 
-Solve [Problem 18](../p/p18.md) using  `List.take` and `List.drop`.
 
-## Problem 20
 
-```elm
-dropAt : List a -> Int -> List a
-```
 
-Solve [Problem 20](../p/p20.md) using  `List.take` and `List.drop` and the append operator ```(++)``` or ```List.append```.
 
-## Problem 19
-
-```elm
-rotate : List a -> Int -> List a
-```
-
-Solve [Problem 19](../p/p19.md) using `List.take` and `List.drop` and the append operator ```(++)``` or ```List.append```.
-
-## Problem 21
-
-```elm
-insertAt : List a -> Int -> a -> List a
-```
-
-Solve [Problem 21](../p/p21.md)  using `List.take`, `List.drop`, append operator ```(++)``` and the "cons" operator ```(::)```. You may want to use split from [Problem 17](../p/p17.md).
-
-## Problem 28a
