@@ -2,7 +2,7 @@
 
 Let's use [Problem 4](/../p/p04.md) as a simple example of recursing  through a list. 
 
-```elm
+```
 countElements : List a -> Int
 countElements list =
     case list of
@@ -16,6 +16,7 @@ When recursing over a list's items you will often use the ```x :: xs``` cons con
 
 To avoid an infinite loop, there must be a case where the function is not called, bringing an end to the recusion stack. Frequently, as in this example, that is the empty list.
 
+Another example 
 
 ## Problem 14
 
