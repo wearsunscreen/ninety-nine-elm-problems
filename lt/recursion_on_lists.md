@@ -16,7 +16,7 @@ When recursing over a list's items you will often use the ```x :: xs``` cons con
 
 To avoid an infinite loop, there must be a case where the function is not called, bringing an end to the recusion stack. Frequently, as in this example, that is the empty list.
 
-Frequently when recursing over a list, you will build up a new list to return as a result. [Problem 5](../p/p05.md "Problem 5")
+Frequently when recursing over a list, you will build up a new list to return as a result. [Problem 5](../p/p05.md "Problem 5") builds a new list in reverse order from it's input. 
 
 ```elm
 myReverse : List a -> List a
@@ -29,14 +29,9 @@ myReverse list =
         (myReverse xs) ++ [x]
 ``` 
 
-## Problem 14
+## Problems to solve using recursion
 
-[Problem 14](../p/p34.md "Problem 14") -- use recursion to duplicate each item of a list using recursion and ```(::)``` 
+[Problem 14](../p/p14.md "Problem 14") - Use recursion to duplicate each item of a list using recursion and ```(::)```.
 
-## Problem 5
-
-`myReverse : List a -> List a`
-Solve [Problem 5](../p/p05.md "Problem 5") using recursion and \(++\)
-
-## 
+[Problem 15](../p/p15.md "Problem 15") - Use recursion to repeat a specified number of times each item of a list using recursion and ```(::)``` and ```List.repeat```.
 
