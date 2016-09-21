@@ -8,7 +8,7 @@ This book makes it easy to jump into programming, no installs required. You can 
 ## Who *isn't* this book for?
 Elm is an easy to use web development language. The problems posed in this book do not cover web specific topics. If you are comfortable with functional programming and are looking to learn how to use Elm to develop web apps and web pages, then this book is NOT for you.
 
-This book is not a primer on Elm. There are two problems that use the [Elm Architecture](https://guide.elm-lang.org/architecture/) to handle randomness ([Problem 23](p/p23.md)) and time ([Problem 38](p/p38.md)).  However, if you are looking for a tutorial try [this gitbook](https://www.gitbook.com/book/sporto/elm-tutorial/). 
+This book is not a primer on Elm. There are two problems that use the [Elm Architecture](https://guide.elm-lang.org/architecture/) to handle randomness ([Problem 23](p/p23.md)) and time ([Problem 38](p/p38.md)).  However, if you are looking for a tutorial try [this gitbook](https://www.gitbook.com/book/sporto/elm-tutorial/), or Evan Czaplicki's [Introduction to Elm](https://guide.elm-lang.org/).
 
 ## Where to begin
 If you're new to functional programming, start with the [Learning Track](learning_track.md). This will introduce you to the basic techniques of functional programming in a progression to help you learn through practice. If you just want to jump into the problems, start at [Problems by Category](the_problems.md). 
