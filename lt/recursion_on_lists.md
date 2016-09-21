@@ -1,12 +1,21 @@
 # Recursion on Lists
 
+Let's use [Problem 4](/../p/p04.md) as a simple example of recursing  through a list. 
 
+```elm
+countElements : List a -> Int
+countElements list =
+    case list of
+        [ ] 
+            -> 0
 
-## Problem 4
+         hd :: tl 
+            -> 1 + countElements tl
+```
+When recursing over a list's items you will often use the ```x :: xs``` cons construction to identify the head and the tail. You can use the head as a value then pass the tail to the same function. In this example we ignore the list item value, adding 1 for each element regardless of its value. 
 
-`countElements : List -> a -> Int`
+To avoid an infinite loop, there must be a case where the function is not called, bringing an end to the recusion stack. Frequently, as in this example, that is the empty list.
 
-Solve [Problem 4](../p/p04.md "Problem 4") using recursion to count the elements in a list in.
 
 ## Problem 14
 
