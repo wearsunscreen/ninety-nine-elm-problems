@@ -2,7 +2,7 @@
 
 In many programming languages functions are first-class. This means that a function is a value that can be passed as a argument to other functions. Functions are as fundamental as integers, characters, booleans and  strings. The problems below demonstrate functions in the Elm core that take functions are arguments. Likewise, you will often create your own functions that take functions are arguments. 
 
-##Problems returning Maybe
+##Functions that take functions
 
 [Problem 28a](p/p28a.md) - Use ```List.sortBy``` to sort a list.
 
