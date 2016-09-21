@@ -1,6 +1,16 @@
 # Notes 
 
 
+## Possible improvements
+* *
+* Five implementations of List.length
+* Find problems that should use Result
+* Add to Learning 
+* * passing functions as arguments (List.sort, List.filter)
+* * concatMap
+* Review category pages
+* Add a *Lost Problems* page
+
 ## Omitted problems
 * Omitted 58, 59, 60, 89 for complexity and lack of value
 * Omitted Problem 66 for complexity and similarity 64 and 65
@@ -11,12 +21,3 @@
 * Omitted 48 - variably sized truth tables 
 * Omitted 67b - de-lispify tree
 * Puzzle problems (90-99) do not have solutions
-
-## Other improvements
-* elm-format code
-* Five implementations of List.length
-* * review simple problems to see if alternate solutions can use any of the other patterns.
-* Search solutions to categorize for leaning track
-* * Add concatMap to learning track
-* Review category pages
-* Add a *Lost Problems* page
