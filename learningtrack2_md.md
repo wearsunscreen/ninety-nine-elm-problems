@@ -3,10 +3,11 @@
 The problems are numbered to match the original _99 Problems in Prolog_. This is not the best order to tackle the problems if you are new, or new-ish to functional programming. This Learning Track presents an order designed to learn functional programming in a sequence that builds from the most basic idioms to more complex. The problems let you develop experience before moving on to the next concept. Each section presents a new technique and problems that you can solve with that technique. 
 
 1. Simple List functions
-2. Maybe Just Nothing
-3. Recursion
-4. Recursion on Lists
-5. Folding
+2. Passing functions as arguments
+3. Maybe Just Nothing
+4. Recursion
+5. Recursion on Lists
+6. Folding
 
 Note the Learning Track does not include all of the 99 problem, and sometimes repeats a problem so you can solve it a different way. For example you will solve Problem 4, `countElements`, three different times, with three different approaches.
 
