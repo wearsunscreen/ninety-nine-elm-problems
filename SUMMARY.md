@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Learning Track](learningtrack2_md.md)
    * [Simple List Functions](lt/simple_list_functions.md)
-   * Passing functions as arguments
+   * [Passing functions as arguments](passing_functions.md)
    * [Maybe, Just, Nothing](lt/maybe,_just,_nothing.md)
    * [Recursion](lt/recursion.md)
    * [Recursion on Lists](lt/recursion_on_lists.md)
