@@ -3,12 +3,12 @@
 * [Introduction](README.md)
 * [Learning Track](learningtrack2_md.md)
    * [Simple List Functions](lt/simple_list_functions.md)
+   * Passing functions as arguments
    * [Maybe, Just, Nothing](lt/maybe,_just,_nothing.md)
    * [Recursion](lt/recursion.md)
    * [Recursion on Lists](lt/recursion_on_lists.md)
    * [Recursion on Binary Trees](recursion_on_binary_trees.md)
    * [Folding](folding.md)
-   * Passing functions as arguments
 * [Problems by Category](the_problems.md)
    * [Lists](lists.md)
    * [Lists and Tuples](lists-tuples-and-union-types.md)
