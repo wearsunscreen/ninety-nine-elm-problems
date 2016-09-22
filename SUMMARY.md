@@ -9,6 +9,7 @@
    * [Recursion on Lists](lt/recursion_on_lists.md)
    * [Recursion on Binary Trees](recursion_on_binary_trees.md)
    * [Fold](folding.md)
+   * Map
 * [Problems by Category](the_problems.md)
    * [Lists](lists.md)
    * [Lists and Tuples](lists-tuples-and-union-types.md)
