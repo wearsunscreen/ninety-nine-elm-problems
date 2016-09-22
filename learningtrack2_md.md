@@ -7,7 +7,9 @@ The problems are numbered to match the original _99 Problems in Prolog_. This is
 3. Maybe Just Nothing
 4. Recursion
 5. Recursion on Lists
-6. Folding
+6. Recursion on Binary Trees
+7. Map
+8. Fold
 
 Note the Learning Track does not include all of the 99 problem, and sometimes repeats a problem so you can solve it a different way. For example you will solve Problem 4, `countElements`, three different times, with three different approaches.
 
