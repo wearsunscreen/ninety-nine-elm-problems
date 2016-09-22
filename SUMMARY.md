@@ -8,7 +8,7 @@
    * [Recursion](lt/recursion.md)
    * [Recursion on Lists](lt/recursion_on_lists.md)
    * [Recursion on Binary Trees](recursion_on_binary_trees.md)
-   * Map
+   * [Map](map.md)
    * [Fold](folding.md)
 * [Problems by Category](the_problems.md)
    * [Lists](lists.md)
