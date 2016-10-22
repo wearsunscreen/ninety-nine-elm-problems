@@ -20,4 +20,4 @@
 
 [Problem 40](p/p40.md) - Find two primes that sum to a given even integer greater than 3. (Goldbach combinations)
 
-[Problem 41](p/p41.md) -  Find all Goldbach combinations for even integer integers in a given range. 
+[Problem 41](p/p41.md) - Find all Goldbach combinations for even integer integers in a given range. 
