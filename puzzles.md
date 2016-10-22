@@ -4,7 +4,7 @@
 
 [Problem 90](p/p90.md) - Eight Queens. 
 
-[Problem 91](p/p91.md) -  Knight's Tour. 
+[Problem 91](p/p91.md) - Knight's Tour. 
 
 [Problem 92](p/p92.md) - Graceful Labeling.
 
