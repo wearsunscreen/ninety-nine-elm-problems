@@ -13,8 +13,9 @@ This book is not a primer on Elm. There are two problems that use the [Elm Archi
 ## Where to begin
 If you're new to functional programming, start with the [Learning Track](learning_track.md). This will introduce you to the basic techniques of functional programming in a progression to help you learn through practice. If you just want to jump into the problems, start at [Problems by Category](the_problems.md). 
 
-## History of the Ninety-nine Problems 
+## History of the 99 Problems 
 
-These problems are adaptations for Elm from [Ninety-Nine Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems), which are adaptations of [Ninety-Nine Prolog Problems](https://sites.google.com/site/prologsite/prolog-problems) developed by Werner Hett. The title is more figurative than literal. There weren't 99 problems in the original Prolog collection. A few of the original Prolog problems don't apply to Elm. The numbering of the problems is consistent with the other collections to ease comparisons. Other adaptations include [Lisp](http://www.informatimago.com/develop/lisp/l99/), [Scala](http://aperiodic.net/phil/scala/s-99/), [OCaml](https://ocaml.org/learn/tutorials/99problems.html). 
+These problems are adaptations for Elm from [Ninety-Nine Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems), which are adaptations of [Ninety-Nine Prolog Problems](https://sites.google.com/site/prologsite/prolog-problems) developed by Werner Hett. The title is more figurative than literal. There weren't 99 problems in the original Prolog collection. A few of the original Prolog problems don't apply to Elm. The numbering of the problems is consistent with the other collections to ease comparisons. Other adaptations include [Lisp](http://www.informatimago.com/develop/lisp/l99/), [Scala](http://aperiodic.net/phil/scala/s-99/), [OCaml](https://ocaml.org/learn/tutorials/99problems.html),. 
+https://github.com/saysmymind/99-Problems-R
 
 
