@@ -139,6 +139,7 @@
    * [Problem 32 Solutions](s/s32.md)
    * [Problem 33 Solutions](s/s33.md)
    * [Problem 34 Solutions](s/s34.md)
+   * Problem 7 Solution
    * [Problem 35 Solutions](s/s35.md)
    * [Problem 36 Solutions](s/s36.md)
    * [Problem 37 Solutions](s/s37.md)
@@ -186,5 +187,4 @@
    * [Problem 87a Solution](s/s87.md)
    * [Problem 87b Solution](s/s87b.md)
    * [Problem 88 Solutions](s/s88.md)
-   * Problem 7 Solution
 
