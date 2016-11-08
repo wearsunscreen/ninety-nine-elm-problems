@@ -29,6 +29,7 @@
    * [Problem 6](p/p06.md)
    * [Extra 1](p/e01.md)
    * [Extra 2](p/e02.md)
+   * Problem 7
    * [Problem 8](p/p08.md)
    * [Problem 9](p/p09.md)
    * [Problem 10](p/p10.md)
@@ -73,7 +74,6 @@
    * [Problem 62a](p/p62a.md)
    * [Problem 62b](p/p62b.md)
    * [Problem 63](p/p63.md)
-   * Problem 7
    * [Problem 64](p/p64.md)
    * [Problem 65](p/p65.md)
    * [Problem 67](p/p67.md)
