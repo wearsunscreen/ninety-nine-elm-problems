@@ -14,6 +14,8 @@ Lists are a fundamental data of functional programming languages. In statically 
 
 [Problem 6](p/p06.md) - Determine if a list is a palindrome.
 
+[Problem 7](p/p07.md) - Flatten nested lists.
+
 ---
 
 ##List Extras
