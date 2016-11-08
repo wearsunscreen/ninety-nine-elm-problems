@@ -86,6 +86,7 @@
    * [Problem 71](p/p71.md)
    * [Problem 72](p/p72.md)
    * [Problem 73](p/p73.md)
+   * Problem 7
    * [Problem 80a](p/p80a.md)
    * [Problem 80b](p/p80b.md)
    * [Problem 81](p/p81.md)
@@ -105,7 +106,6 @@
    * [Problem 97](p/p97.md)
    * [Problem 98](p/p98.md)
    * [Problem 99](p/p99.md)
-   * Problem 7
 * [All Solutions](the_solutions.md)
    * [Problem 1 Solutions](s/s01.md)
    * [Problem 2 Solutions](s/s02.md)
