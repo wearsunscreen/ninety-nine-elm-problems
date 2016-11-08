@@ -29,7 +29,7 @@
    * [Problem 6](p/p06.md)
    * [Extra 1](p/e01.md)
    * [Extra 2](p/e02.md)
-   * Problem 7
+   * [Problem 7](p/p07.md)
    * [Problem 8](p/p08.md)
    * [Problem 9](p/p09.md)
    * [Problem 10](p/p10.md)
