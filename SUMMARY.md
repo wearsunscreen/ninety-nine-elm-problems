@@ -113,6 +113,7 @@
    * [Problem 4 Solutions](s/s04.md)
    * [Problem 5 Solutions](s/s05.md)
    * [Problem 6 Solutions](s/s06.md)
+   * Problem 7 Solution
    * [Extra 1 Solutions](s/e01.md)
    * [Extra 2 Solutions](s/e02.md)
    * [Problem 8 Solutions](s/s08.md)
@@ -139,7 +140,6 @@
    * [Problem 32 Solutions](s/s32.md)
    * [Problem 33 Solutions](s/s33.md)
    * [Problem 34 Solutions](s/s34.md)
-   * Problem 7 Solution
    * [Problem 35 Solutions](s/s35.md)
    * [Problem 36 Solutions](s/s36.md)
    * [Problem 37 Solutions](s/s37.md)
