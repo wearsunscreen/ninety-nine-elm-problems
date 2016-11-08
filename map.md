@@ -23,6 +23,8 @@ List.map abs [1, 2, -3] == [1, 2, 3]
 
 [Problem 15](../p/p15.md) - Repeat elements of a list.
 
+[Problem 7](p/p07.md) - Flatten nested lists.
+
 [Problem 12](../p/p12.md) - Decode a run-length encoded list.
 
 [Problem 72](../p/p72.md) - Collect the nodes of a multiway tree into a list.
