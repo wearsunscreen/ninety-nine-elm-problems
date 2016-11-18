@@ -1,4 +1,7 @@
 # Ninety-nine Problems, Solved in Elm
+
+###*Warning! Due to the recent update for Elm 0.18 many of the problems are not compiling. I'll be working on correcting these as I have time.*
+
 ## Who is this book for?
 
 Elm is an easy to use pure functional programming language. These exercises give you a path to learn and practice functional idioms. The techniques demonstrated in this book apply to any functional programming language. 
