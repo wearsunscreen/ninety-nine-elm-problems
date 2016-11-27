@@ -1,7 +1,7 @@
 # Ninety-nine Problems, Solved in Elm
 
 ***
-### Warning! Due to the recent update for Elm 0.18 many of the problems are not compiling. I'll be working on correcting these as I have time.
+### Warning! Due to the recent update for Elm 0.18 some problems are not compiling. I'll be working on correcting these as I have time.
 
 ***
 
