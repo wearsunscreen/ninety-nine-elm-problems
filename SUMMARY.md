@@ -182,7 +182,7 @@
    * [Problem 80b Solutions](s/s80b.md)
    * [Problem 81 Solutions](s/s81.md)
    * [Problem 84 Solutions](s/s84.md)
-   * [Problem 86a Solution](s/s86a.md)
+   * [Problem 86a Solution](s/86a.md)
    * [Problem 86b Solution](s/s86b.md)
    * [Problem 87a Solution](s/s87.md)
    * [Problem 87b Solution](s/s87b.md)
