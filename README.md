@@ -4,12 +4,10 @@
 
 Elm is an easy to use pure functional programming language. These exercises give you a path to learn and practice functional idioms. The techniques demonstrated in this book apply to any functional programming language. 
 
-This book makes it easy to jump into programming, no installs required. You can code and test your solutions on Elm's online editor, [http://elm-lang.org/try](http://elm-lang.org/try). Every problem has a unit test and a full program to test your solution. Many problems have multiple solutions, demonstrating different approaches to solving a problem. 
+This book makes it easy to jump into programming, no installs required. You can code and test your solutions on Elm's online editor, [http://elm-lang.org/try](http://elm-lang.org/try). To run with a debugger use [http://debug.elm-lang.org/try](http://debug.elm-lang.org/try). Every problem has a unit test and a full program to test your solution. Many problems have multiple solutions, demonstrating different approaches to solving a problem. 
 
 ## Who *isn't* this book for?
-Elm is an easy to use web development language. The problems posed in this book do not cover web specific topics. If you are comfortable with functional programming and are looking to learn how to use Elm to develop web apps and web pages, then this book is NOT for you.
-
-This book is not a primer on Elm. There are two problems that use the [Elm Architecture](https://guide.elm-lang.org/architecture/) to handle randomness ([Problem 23](p/p23.md)) and time ([Problem 38](p/p38.md)).  However, if you are looking for a tutorial try [this gitbook](https://www.gitbook.com/book/sporto/elm-tutorial/), or Evan Czaplicki's [Introduction to Elm](https://guide.elm-lang.org/).
+Elm is an easy to use web development language. The problems posed in this book do not cover web specific topics. If you are comfortable with functional programming and are looking to learn how to use Elm to develop web apps and web pages, then this book is NOT for you. Try instead Evan Czaplicki's [Introduction to Elm](https://guide.elm-lang.org/). However there are two problems that use the [Elm Architecture](https://guide.elm-lang.org/architecture/) to handle randomness ([Problem 23](p/p23.md)) and time ([Problem 38](p/p38.md)).  
 
 ## Where to begin
 If you're new to functional programming, start with the [Learning Track](learning_track.md). This will introduce you to the basic techniques of functional programming in a progression to help you learn through practice. If you just want to jump into the problems, start at [Problems by Category](the_problems.md). 
