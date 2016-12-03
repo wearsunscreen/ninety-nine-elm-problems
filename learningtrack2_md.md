@@ -23,9 +23,11 @@ Each section will have links to problems in order from simple to complex. This w
 4. Hints: Suggests one or more ways to implement a solution.
 5. Solutions: Links to a page with one or more solutions.
 
-## How to get the most from this book
+## Learning from the problems
 
-Copy the unit test into the Elm online editor, [http:/elm-lang.org/try](http://elm-lang.org/try), or in the debugger-enabled [http://debug.elm-lang.org/try](http://debug.elm-lang.org/try). Find the stubbed-out functions with comment ```-- your implementation goes here```. Attempt to implement the function. You may want or to write helper functions to complete your solutions. If your 
+Copy the unit test into the Elm online editor, [http:/elm-lang.org/try](http://elm-lang.org/try), or in the debugger-enabled [http://debug.elm-lang.org/try](http://debug.elm-lang.org/try). Find the stubbed-out functions with comment ```-- your implementation goes here```. Attempt to implement the function. You may want or to write helper functions to complete your solutions. 
+
+Click "Compile" to test your code. If your solution is correct you will be rewarded with the message "Your implementation passed all tests". If tests fail examine which tests failed and try again. 
 
 We learn best by doing, so before checking the hints or the solutions page, attempt to solve the problem yourself. Apply what you learned from the previous problems to solve the later problems. Then check the hints and see if that doesn't inspire other solutions or improvements to your own. Finally, check the solutions page to learn from those examples.
 
