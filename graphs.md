@@ -2,7 +2,7 @@
 
 A graph is defined as a set of nodes and a set of edges, where each edge is a pair of nodes. Throughout these problems we will represent nodes with single characters.
 
-![](../i/graph1.gif)
+![](i/graph1.gif)
 
 There are several ways to represent graphs. One method is to represent each edge separately.
 
@@ -69,7 +69,7 @@ We call this the human-friendly form. The list does not have to be sorted and ma
 
 When the edges are directed we call them arcs. These are represented by ordered pairs. Such a graph is called directed graph. We can reuse the graph notation with little or no change, to represent digraphs. 
 
-![Digraph80](../i/graph2.gif)
+![Digraph80](i/graph2.gif)
 
 
 ```elm
@@ -102,7 +102,7 @@ hrDigraph80 = "[s > r, t, u > r, s > u, u > s, v > u]"
 ##Labeled graphs
 Finally, graphs and digraphs may have additional information attached to nodes and edges (arcs). For edges and arc we have to extend our notation. Graphs with additional information attached to edges are called labeled graphs.
 
-![](../i/graph3.gif)
+![](i/graph3.gif)
 
 ```elm
 type alias Arc comparable = (comparable, comparable, Int)
