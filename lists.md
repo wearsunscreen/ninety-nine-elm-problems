@@ -18,7 +18,7 @@ Lists are a fundamental data of functional programming languages. In statically 
 
 ---
 
-##List Extras
+## List Extras
 
 Many of the solutions to problems in this book can take advantage of some commonly used list manipulation functions. The Elm community created the List.Extra module which is well worth your time to peruse. These functions will be familiar to experienced functional programmers, especially Haskell programmers.
 

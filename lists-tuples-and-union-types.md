@@ -1,6 +1,6 @@
 # Lists and Tuples
 
-##What's a Tuple
+## What's a Tuple
 A Tuple is a fixed length collection of elements. Unlike Lists, a tuple can mix types. The type of the tuple depends on the types of its elements. Thus a
 
 `(Int, String) `

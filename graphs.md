@@ -19,7 +19,7 @@ We call this edge-clause form. The edge-clause cannot represent isolated nodes.
 
 ---
 
-##Graph-term form
+## Graph-term form
 
 To represent the whole graph we can use as a pair of sets (nodes and edges).
 
@@ -39,7 +39,7 @@ We call this the graph-term form. It will be our default representation in these
 
 ---
 
-##Adjancency list form
+## Adjancency list form
 A third representation method is to associate with each node the set of nodes that are adjacent to that node. We call this the adjacency-list form. In our example:
 
 ```elm
@@ -55,7 +55,7 @@ adjList80 =
 ```
 ---
 
-##Human-readable form
+## Human-readable form
 
 Typing the terms by hand is cumbersome and error-prone. We can define a more compact and "human-readable" notation as follows:
 
@@ -65,7 +65,7 @@ hm80 = "[b-c, f-c, g-h, d, f-b, k-f, h-g]"
 We call this the human-friendly form. The list does not have to be sorted and may even contain the same edge multiple times. Notice the isolated node d. Unlike the Graph and AdjList type, this is textual representation, not a type. 
 
 ---
-##Directed Graphs
+## Directed Graphs
 
 When the edges are directed we call them arcs. These are represented by ordered pairs. Such a graph is called directed graph. We can reuse the graph notation with little or no change, to represent digraphs. 
 
@@ -99,7 +99,7 @@ hrDigraph80 = "[s > r, t, u > r, s > u, u > s, v > u]"
 ```
 
 ---
-##Labeled graphs
+## Labeled graphs
 Finally, graphs and digraphs may have additional information attached to nodes and edges (arcs). For edges and arc we have to extend our notation. Graphs with additional information attached to edges are called labeled graphs.
 
 ![](i/graph3.gif)

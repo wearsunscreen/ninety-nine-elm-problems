@@ -2,7 +2,7 @@
 
 This section presents the 99 problems as they were first presented in 99 Problems in Prolog, arranged in topical groups. Each group will have links to the full problem pages. 
 
-##Problem pages
+## Problem pages
 Each problem page has:
 
 1. Problem statement: Describes problem, and ask you to implement a solution. 

@@ -2,13 +2,13 @@
 
 ```List.map``` applies a provided function to all elements of a list. 
 
-##Example
+## Example
 ```elm
 List.map negate [1, 2, -3] == [-1, -2, 3]
 List.map abs [1, 2, -3] == [1, 2, 3]
 ```
 
-##Problems to solve using List.map
+## Problems to solve using List.map
 
 [Problem 4](../p/p04.md) - Count the elements using map. Hint: after passing a simple function to map, you can get the count by calling ```List.sum```. 
 

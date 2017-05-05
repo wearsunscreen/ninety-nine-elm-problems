@@ -11,7 +11,7 @@
 * [Problem 60](p/p60.md) - Generate height-balanced trees with a give number of nodes. 
 
 ---
-###Traverse a Tree
+### Traverse a Tree
 Solving these three tree traversal problems will make it easier to solve the rest of the tree challenges
 
 * [Problem 68a](p/p68a.md) - Extract a list of nodes of a tree in pre-order. 

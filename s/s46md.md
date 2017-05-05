@@ -1,6 +1,6 @@
 # Problem 46 Solutions
 
-##Solution 1
+## Solution 1
 
 ```elm
 -- True if and only if a and b are true
