@@ -10,7 +10,7 @@ Type Maybe a = Just a | Nothing.
 We see ```Maybe``` is a union type. A ```Maybe``` must either  be a  ```Just``` something or a ```Nothing```. Also it is parameterized, so we can use it for lists of any type.
 
 
-##Problems returning Maybe
+## Problems returning Maybe
 
 [Problem 1](../p/p01.md) - Get last element of a list.
 

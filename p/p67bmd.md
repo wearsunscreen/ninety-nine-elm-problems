@@ -6,7 +6,7 @@ Consider a string representation of a tree with a single character naming each n
 
 Write a function to generate a tree from its string representation created in [Problem 67a](p67a.md). 
 
-##Example
+## Example
 ```elm
 toTree "x(y,a(,b))" ==  
     Node 'x' 
@@ -16,7 +16,7 @@ toTree "x(y,a(,b))" ==
             (Node 'b' Empty Empty))
 ```
 
-##Unit test
+## Unit test
 
 ```elm
 import Html
@@ -87,9 +87,9 @@ t4 =
 
 ```
 
-##Hints
+## Hints
 1. Solve the problem for just one Tree type first, ```Tree Int``` for example. 
 
 
-##Solutions
+## Solutions
 [Solutions](../s/s67b.md)
