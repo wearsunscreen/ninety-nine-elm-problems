@@ -43,7 +43,7 @@ myReverse list =
 
 [Extra 2](../p/e02.md) - Pass a function to remove some elements from the back of a list.
 
-[Problem 8](../p/p08.md) - Use `List.take` and `List.drop` to take a portion of a list
+[Problem 18](../p/p18.md) - Use `List.take` and `List.drop` to take a portion of a list
 
 
 
