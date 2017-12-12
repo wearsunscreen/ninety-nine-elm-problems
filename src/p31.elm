@@ -1,19 +1,28 @@
-# Problem 31
+module Main exposing (..)
 
-Determine whether a given integer number is prime.
-
-Example:
-```
-isPrime 113 == True 
-```
-## Unit Test
-```elm
 import Html
 
+
 isPrime : Int -> Bool
-isPrime n = 
-    -- your implementation goes here
-    False
+isPrime n =
+    if n < 2 then
+        False
+    else
+        eratos (abs n) (List.range 2 (n // 2))
+
+
+eratos : Int -> List Int -> Bool
+eratos n cs =
+    case cs of
+        [] ->
+            True
+
+        x :: xs ->
+            if n % x == 0 then
+                False
+            else
+                eratos n (List.filter (\y -> (y % x) /= 0) xs)
+
 
 main : Html.Html a
 main =
@@ -47,12 +56,3 @@ test =
             , ( isPrime 63247, True )
             , ( isPrime 63249, False )
             ]
-
-
-```
-
-## Hints
-1. Try the [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes). ```List.filter``` will come in handy.
-
-## Solutions
-[Solutions](../s/s31.md)
